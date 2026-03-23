@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply font-bdo text-gio-black bg-white;
+    font-weight: 400;
+  }
+
+  /* Cap all headings at 400 weight */
+  h1, h2, h3, h4, h5, h6, strong, b {
+    font-weight: 400;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-gio-red text-white;
+  }
+}
+
+@layer components {
+  /* Container utility */
+  .container-gio {
+    @apply max-w-container mx-auto px-container;
+  }
+
+  /* Red accent button */
+  .btn-primary {
+    @apply bg-gio-red text-white px-6 py-3 font-normal tracking-[-0.02em]
+           transition-all duration-300 hover:bg-gio-black;
+  }
+
+  /* Outline button */
+  .btn-outline {
+    @apply border border-gio-black text-gio-black px-6 py-3 font-normal tracking-[-0.02em]
+           transition-all duration-300 hover:bg-gio-black hover:text-white;
+  }
+
+  /* Badge styles (like "New" tags) */
+  .badge {
+    @apply inline-block bg-gio-black text-white text-small px-3 py-1 font-normal;
+  }
+
+  .badge-red {
+    @apply inline-block bg-gio-red text-white text-small px-3 py-1 font-normal;
+  }
+
+  /* Section spacing */
+  .section {
+    @apply py-section;
+  }
+
+  /* Color dot indicator */
+  .color-dot {
+    @apply w-3 h-3 rounded-full border border-white/20;
+  }
+
+  /* ── Typography ── */
+
+  .heading-page {
+    @apply text-[clamp(2.5rem,4vw,4rem)] leading-[1] tracking-[-0.04em] text-gio-black;
+  }
+
+  .heading-section {
+    @apply text-[clamp(1.25rem,1.8vw,1.625rem)] leading-[1.1] tracking-[-0.02em] text-gio-black;
+  }
+
+  .text-subtitle {
+    @apply text-[clamp(0.9rem,1.1vw,1.05rem)] leading-[1.5] tracking-[-0.02em] text-gio-black/45;
+  }
+
+  .text-body-lg {
+    @apply text-[clamp(1rem,1.2vw,1.125rem)] leading-[1.65] text-gio-black/70;
+  }
+
+  /* ── Form elements ── */
+
+  .form-label {
+    @apply block text-[11px] uppercase tracking-[0.15em] text-gio-black/35 mb-2;
+  }
+
+  .form-input {
+    @apply w-full border border-gio-black/10 px-4 py-3 text-[14px] text-gio-black
+           focus:outline-none focus:border-gio-black/30 transition-colors;
+  }
+
+  /* ── Toggle buttons (filters, tabs) ── */
+
+  .toggle-btn {
+    @apply px-4 py-2 text-[13px] tracking-[-0.02em] rounded-full transition-colors;
+  }
+
+  .toggle-btn-active {
+    @apply bg-gio-black text-white;
+  }
+
+  .toggle-btn-inactive {
+    @apply bg-gio-grey text-gio-black/40 hover:text-gio-black/60;
+  }
+
+  /* ── Table cells ── */
+
+  .table-label {
+    @apply py-3.5 px-4 text-gio-black/40;
+  }
+
+  .table-value {
+    @apply py-3.5 px-4 text-gio-black/60 text-right;
+  }
+
+  /* ── Nav links ── */
+
+  .nav-link {
+    @apply text-[16px] text-gio-black tracking-[-0.02em] leading-none whitespace-nowrap
+           hover:text-gio-red transition-colors;
+  }
+}
+
+@layer utilities {
+  /* Text balance for headlines */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Image zoom on hover */
+  .img-zoom {
+    @apply transition-transform duration-500 ease-out;
+  }
+
+  .group:hover .img-zoom {
+    @apply scale-105;
+  }
+}

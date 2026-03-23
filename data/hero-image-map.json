@@ -1,0 +1,985 @@
+{
+  "arte-by-gio": {
+    "heroImage": "hero-images/arte-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2016/05/Arte1.png",
+      "https://www.giotile.com/wp-content/uploads/2016/05/Arte-Colors-2.png",
+      "https://www.giotile.com/wp-content/uploads/2016/05/Screen-Shot-2017-05-24-at-12.50.17-PM.png"
+    ]
+  },
+  "fountaine-by-gio": {
+    "heroImage": "hero-images/fountaine-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2017/01/GIO-Fountaine-noce-3x18-copy.jpg",
+      "https://www.giotile.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-18-at-9.09.29-AM.png",
+      "https://www.giotile.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-18-at-9.09.43-AM.png"
+    ]
+  },
+  "moda-by-gio": {
+    "heroImage": "hero-images/moda-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2015/07/Screen-Shot-2015-07-01-at-2.18.48-PM.png",
+      "https://www.giotile.com/wp-content/uploads/2015/07/Screen-Shot-2015-07-01-at-2.25.18-PM.png",
+      "https://www.giotile.com/wp-content/uploads/2015/07/Screen-Shot-2015-07-01-at-2.22.56-PM.png"
+    ]
+  },
+  "vitro-by-gio": {
+    "heroImage": "hero-images/vitro-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2017/09/Vitro-wall-tile-2.png",
+      "https://www.giotile.com/wp-content/uploads/2017/09/VITRO-colors.png",
+      "https://www.giotile.com/wp-content/uploads/2017/09/VITRO-specs.png"
+    ]
+  },
+  "tigerwood-by-gio": {
+    "heroImage": "hero-images/tigerwood-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2018/12/Tigerwood-Floor-and-Wall-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2018/12/Tigerwood-colors.png",
+      "https://www.giotile.com/wp-content/uploads/2018/12/Tigerwood-specs.png"
+    ]
+  },
+  "metallo-by-gio": {
+    "heroImage": "hero-images/metallo-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2019/01/Metallo-by-GIO-porcelain-tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2019/02/Metallo-porcelain-tile-colors.png",
+      "https://www.giotile.com/wp-content/uploads/2019/02/Metallo-porcelain-tile-specs.png"
+    ]
+  },
+  "crystal-glass-collection-by-gio": {
+    "heroImage": "hero-images/crystal-glass-collection-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2014/12/Crystal-glass-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2019/03/GIO-Crystal-Glass-Collection-colors.png",
+      "https://www.giotile.com/wp-content/uploads/2019/03/GIO-Crystal-Glass-Collection-specs.png"
+    ]
+  },
+  "veneto-by-gio": {
+    "heroImage": "hero-images/veneto-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2019/08/Vento-Floor-and-Wall-Tile-by-GIO.jpg",
+      "https://www.giotile.com/wp-content/uploads/2019/08/Vento-Floor-and-Wall-Tile-by-GIO-colors.jpg",
+      "https://www.giotile.com/wp-content/uploads/2019/08/Vento-Floor-and-Wall-Tile-by-GIO-specs.jpg"
+    ]
+  },
+  "versailles-by-gio": {
+    "heroImage": "hero-images/versailles-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2018/04/Versailles-by-GIO-Floor-and-Wall-Tile.png",
+      "https://www.giotile.com/wp-content/uploads/2019/10/Versailles-colors-and-specs.jpg"
+    ]
+  },
+  "vintage-by-gio-2": {
+    "heroImage": "hero-images/vintage-by-gio-2.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2018/11/GIO-Vintage-Stars-Greige-taupe-reduced.jpg",
+      "https://www.giotile.com/wp-content/uploads/2019/11/GIO-Petals-Vintage-Dark-Grey.jpg",
+      "https://www.giotile.com/wp-content/uploads/2017/09/GIO_VINTAGE-cropped.jpg",
+      "https://www.giotile.com/wp-content/uploads/2019/02/Vintage-composite.jpg",
+      "https://www.giotile.com/wp-content/uploads/2019/10/Vintage-by-GIO-colors-and-patterns.jpg"
+    ]
+  },
+  "linen-by-gio": {
+    "heroImage": "hero-images/linen-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2020/01/Linen-by-GIO-in-Grey-12x24-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2020/01/Linen-by-GIO-2020-specs-and-colors.jpg"
+    ]
+  },
+  "vintage-by-gio-florentine": {
+    "heroImage": "hero-images/vintage-by-gio-florentine.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2020/01/THEONLINESTUDIO_GIO_TILE_P1_V1.png",
+      "https://www.giotile.com/wp-content/uploads/2019/10/Vintage-by-GIO-colors-and-patterns.jpg"
+    ]
+  },
+  "atelier-by-gio": {
+    "heroImage": "hero-images/atelier-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2020/02/Atelier-Floor-and-Wall-Tile-by-GIO-in-Grey-8x40-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2020/02/Atelier-by-GIO-specs.jpg"
+    ]
+  },
+  "modern-by-gio": {
+    "heroImage": "hero-images/modern-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2020/04/Modern-Floor-and-Wall-Tile-in-charcoal-8x36-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2020/04/Modern-by-GOIO-colors-and-specs.jpg"
+    ]
+  },
+  "neo-brick": {
+    "heroImage": "hero-images/neo-brick.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2019/12/NEO_Brick-wall-tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2020/03/GIO-Neo_Brick-colors-and-specs.jpg"
+    ]
+  },
+  "hex-leonis-by-gio": {
+    "heroImage": "hero-images/hex-leonis-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2020/04/HEX_LEONIS-floor-and-wall-tile-cropped.jpg",
+      "https://www.giotile.com/wp-content/uploads/2020/04/HEX_LEONIS-floor-and-wall-tile-colors-specs.jpg"
+    ]
+  },
+  "ardesia-by-gio": {
+    "heroImage": "hero-images/ardesia-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/02/Ardesia-Dark-Grey-24x48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2021/02/Ardesia-floor-and-wall-tile-colors-and-specs.jpg"
+    ]
+  },
+  "pastel-by-gio": {
+    "heroImage": "hero-images/pastel-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/03/GIO-Pastel-Aqua-2.5x10-Glossy-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2021/03/GIO-Pastel-specs-and-colors.jpg"
+    ]
+  },
+  "hex_frame": {
+    "heroImage": "hero-images/hex_frame.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/04/GIO-Hex_Frame-Graphite-7x8-Hexagon-Framed-Decor.jpg",
+      "https://www.giotile.com/wp-content/uploads/2021/04/GIO-Hex_Frame.jpg"
+    ]
+  },
+  "brick-by-gio": {
+    "heroImage": "hero-images/brick-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2016/05/Screen-Shot-2016-05-02-at-11.17.26-AM.png",
+      "https://www.giotile.com/wp-content/uploads/2021/08/Brick-floor-and-wall-tile-colors-specs.jpg"
+    ]
+  },
+  "cardoso": {
+    "heroImage": "hero-images/cardoso.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/08/GIO-Cardoso-Grey-24x48-Rectified-v2.jpg",
+      "https://www.giotile.com/wp-content/uploads/2021/08/GIO-Cardoso-colors-specs.jpg"
+    ]
+  },
+  "umber-by-gio": {
+    "heroImage": "hero-images/umber-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/01/GIO-Umber-Bianco-8x-48-Rectified-umber-v2.jpg",
+      "https://www.giotile.com/wp-content/uploads/2022/01/GIO-Umber-colors.jpg"
+    ]
+  },
+  "naxos-by-gio": {
+    "heroImage": "hero-images/naxos-by-gio.jpeg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/01/GIO-Naxos-Grey-3x16-Wall-Tile-cropped.jpeg",
+      "https://www.giotile.com/wp-content/uploads/2022/01/GIO-Naxos-Wall-Tile-colors.jpg"
+    ]
+  },
+  "alloy-by-gio": {
+    "heroImage": "hero-images/alloy-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2020/06/GIO-Alloy-Grey-24-x-48-Rectified.jpg",
+      "https://www.giotile.com/wp-content/uploads/2022/02/Alloy-floor-and-wall-tile-colors.jpg"
+    ]
+  },
+  "bianca-by-gio": {
+    "heroImage": "hero-images/bianca-by-gio.jpeg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/04/GIO-Bianca-Carrara-24-x-48-Polished-Rectified-copy.jpeg",
+      "https://www.giotile.com/wp-content/uploads/2022/04/Gio-Bianca-floor-and-wall-tile-specs-and-colors.jpg"
+    ]
+  },
+  "coccio-by-gio": {
+    "heroImage": "hero-images/coccio-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/05/GIO-Coccio-Silver-Cenere-36-x-36-Rectified-Field-Tile-2.jpg",
+      "https://www.giotile.com/wp-content/uploads/2022/05/GIO-Coccio.jpg"
+    ]
+  },
+  "carrara-by-gio": {
+    "heroImage": "hero-images/carrara-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/08/GIO-Carrara-Striato-24x48-Honed.jpg",
+      "https://www.giotile.com/wp-content/uploads/2022/07/Carrara-floor-and-wall-tile-colors-and-specs.jpg"
+    ]
+  },
+  "hex_prima": {
+    "heroImage": "hero-images/hex_prima.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/05/GIO-Hex_Prima-Bianco-7x8-Hexagon-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2022/05/GIO-Hex_Prima-colors-specs.jpg"
+    ]
+  },
+  "vintage-by-gio": {
+    "heroImage": "hero-images/vintage-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-19-at-10.00.22-AM.png",
+      "https://www.giotile.com/wp-content/uploads/2022/09/GIO-Vintage-floor-and-wall-tile-colors-and-specs.jpg"
+    ]
+  },
+  "agata-by-gio": {
+    "heroImage": "hero-images/agata-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/08/GIO-Agata-24-x-48-Polished-Rectified-edited.jpg",
+      "https://www.giotile.com/wp-content/uploads/2022/08/Agata-by-GIO-colors-and-specs.jpg"
+    ]
+  },
+  "subway-by-gio": {
+    "heroImage": "hero-images/subway-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2020/01/Subway-by-GIO-Wall-Tile-in-4x16-Architectural-Grey-Bright.jpg",
+      "https://www.giotile.com/wp-content/uploads/2022/12/GIO-specs-colors-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2021/11/Subway-by-GIO-Wall-Tile-in-8x24-Standard-Bright-White-square.jpeg",
+      "https://www.giotile.com/wp-content/uploads/2022/12/GIO-specs-colors-2.jpg"
+    ]
+  },
+  "geometry-hex-by-gio": {
+    "heroImage": "hero-images/geometry-hex-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2019/03/Geometry-Hex-Collection-2x2-Arctic-White-Unglazed-Black-Unglazed.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/02/Geometry-Hex.jpg"
+    ]
+  },
+  "mirabella-by-gio": {
+    "heroImage": "hero-images/mirabella-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/03/GIO-Mirabella-Ivory-24x48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/03/Mirabella-by-Gio-colors-specs.jpg"
+    ]
+  },
+  "varenna-by-gio": {
+    "heroImage": "hero-images/varenna-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/05/GIO-Varenna-Bianca-24-x-48-Honed-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/07/Varenna-porcelain-tile-specs-and-colors.jpg"
+    ]
+  },
+  "choma-by-gio": {
+    "heroImage": "hero-images/choma-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/08/GIO-Chroma-Taupe-3x8-Glossy-and-Matte-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/08/Gio-Chrom-porcelain-tile-specs-and-colors.jpg"
+    ]
+  },
+  "mia-by-gio": {
+    "heroImage": "hero-images/mia-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/08/GIO-Mia-Bone-5x5-Cross-and-Terracotta-6x6-Star.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/08/GIO-MIA-tile-psecs-colors.jpg"
+    ]
+  },
+  "linea-by-gio": {
+    "heroImage": "hero-images/linea-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/08/GIO-Linea-Grey-24x48-Polished-Rectified-Field-Tile-edited.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/08/Linea-porcelain-floor-and-wall-tile-by-Gio-colors-specs.png"
+    ]
+  },
+  "chalk-by-gio": {
+    "heroImage": "hero-images/chalk-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/09/GIO-Chalk-Tan-12-x-24-Wall-and-Terrazzo-Fleck-Bianco-24x48-Floor.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/09/GIO-Chalk-colors-specs.jpg"
+    ]
+  },
+  "petra-by-gio": {
+    "heroImage": "hero-images/petra-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/09/GIO-Petra-Anthracite-24x48-Honed-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/09/GIO-PETRA-FLOOR-AMND-WALL-SPECS-AND-COLORS.jpg"
+    ]
+  },
+  "padana-by-gio": {
+    "heroImage": "hero-images/padana-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/09/GIO-Padana-Pearl-24x24-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/09/GIO-Padana-specs-colors.png"
+    ]
+  },
+  "shades-by-gio": {
+    "heroImage": "hero-images/shades-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/11/GIO-Shades-Light-Verde-3-x10-Field-Tile-Wall-and-Coccio-Light-Grey-Field-Tile-Floor.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/11/Shades-wall-tile-colors.jpg"
+    ]
+  },
+  "jura-by-gio": {
+    "heroImage": "hero-images/jura-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/11/GIO-Jura-Light-Beige-24x48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/11/Jura-floor-and-wall-tile-colors.jpg"
+    ]
+  },
+  "neolith-by-gio": {
+    "heroImage": "hero-images/neolith-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2018/12/NEOLITH-by-GIO-Floor-Wall-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/11/GIO-Neolith-tile-specs-and-colors.jpg"
+    ]
+  },
+  "onyx-lux-by-gio": {
+    "heroImage": "hero-images/onyx-lux-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/11/GIO-Onyx_Lux-Dark-29-x-58-Polished-Rectified.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/11/Onxy_Lux-specs-colors.jpg"
+    ]
+  },
+  "barnwood-by-gio": {
+    "heroImage": "hero-images/barnwood-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/08/GIO-Barnwood-Bianco-6x24-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/02/gio-barnwoos-specs-colors.jpg"
+    ]
+  },
+  "geometry-picket-collection": {
+    "heroImage": "hero-images/geometry-picket-collection.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/03/GIO-Geometry-Picket-Purity-White-2x5-Beveled-Glossy-Mosaic.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/03/Geometry-picket-colors-and-specs.jpg"
+    ]
+  },
+  "renoir-by-gio": {
+    "heroImage": "hero-images/renoir-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/04/GIO-Renoir-Arabescato-32x32-Polished-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/04/GIO-Renoir-specs-and-colors.jpg"
+    ]
+  },
+  "brick_cotto": {
+    "heroImage": "hero-images/brick_cotto.jpeg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/04/brick_cotto-verde-room-scene.jpeg",
+      "https://www.giotile.com/wp-content/uploads/2024/04/Brick_Cotto_colors_specs.jpg"
+    ]
+  },
+  "marmi-satin-by-gio": {
+    "heroImage": "hero-images/marmi-satin-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Marmi_Satin-Bluette-24-x24-Rectified-and-Brushed-Field-Tile-marmi.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/05/Marmi_Satin-colors-specs.jpg"
+    ]
+  },
+  "brick_roma_by_gio": {
+    "heroImage": "hero-images/brick_roma_by_gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Brick_Roma-Light-Grey-2x18-Field-Tile-brick.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/05/Brick-roma-colors-specs.jpg"
+    ]
+  },
+  "basaltina-by-gio": {
+    "heroImage": "hero-images/basaltina-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2019/01/Basaltina-floor-and-wall-tile-in-Anthracite-by-GIO.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/05/Basaltina-specs-colors.jpg"
+    ]
+  },
+  "claystone-by-gio": {
+    "heroImage": "hero-images/claystone-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2014/05/claystone-new-cropped.png",
+      "https://www.giotile.com/wp-content/uploads/2024/05/claystone-colors-specs.jpg"
+    ]
+  },
+  "blendstone-by-gio": {
+    "heroImage": "hero-images/blendstone-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Blendstone-Blue-24x-48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/05/Blendstone-colors-and-specs.jpg"
+    ]
+  },
+  "cotto-cemento-by-gio": {
+    "heroImage": "hero-images/cotto-cemento-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Cotto_Cemento-48x48-White-Rectified-Field-Tile-walls-Rust-24x48-Rectified-Field-Tile-floor.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Cotto_Cemento-colors-specs.jpg"
+    ]
+  },
+  "salento-by-gio": {
+    "heroImage": "hero-images/salento-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Salento-Versailles-Pattern.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Salento-Versailles-Pattern-specs.jpg"
+    ]
+  },
+  "handmade-by-gio": {
+    "heroImage": "hero-images/handmade-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2016/11/Handmade.png",
+      "https://www.giotile.com/wp-content/uploads/2024/05/GIO-Handmade-specs-colors.jpg"
+    ]
+  },
+  "barista-by-gio": {
+    "heroImage": "hero-images/barista-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2015/08/barista-cropped.png",
+      "https://www.giotile.com/wp-content/uploads/2024/06/GIO-Barista-colors-specs.jpg"
+    ]
+  },
+  "bluestone_pierre": {
+    "heroImage": "hero-images/bluestone_pierre.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/02/GIO-Bluestone_Pierre-Nero-16x24-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/06/GIO-Bluestone_Pierre-colors-specs.jpg"
+    ]
+  },
+  "calacatta-by-gio": {
+    "heroImage": "hero-images/calacatta-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2015/08/calacatta.png",
+      "https://www.giotile.com/wp-content/uploads/2024/06/GIO-Calacatta-specs.jpg"
+    ]
+  },
+  "fusion-by-gio": {
+    "heroImage": "hero-images/fusion-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2019/09/Gio-Fusion-porcelain-tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/06/GIO-Fusion-colors-specs.jpg"
+    ]
+  },
+  "emilia-by-gio": {
+    "heroImage": "hero-images/emilia-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/06/GIO-Emilia-16-x24-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/07/Emilia-specs-colors.jpg"
+    ]
+  },
+  "terracotta-by-gio": {
+    "heroImage": "hero-images/terracotta-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/08/GIO-Terracotta-Rosato-8-x-8-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/08/terracotta-colors-specs.jpg"
+    ]
+  },
+  "plush-by-gio": {
+    "heroImage": "hero-images/plush-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2017/06/PLUSH-floor-and-wall-tile-by-GIO.png",
+      "https://www.giotile.com/wp-content/uploads/2024/08/GIO-plush-specs-colors.jpg"
+    ]
+  },
+  "antico-by-gio": {
+    "heroImage": "hero-images/antico-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/03/GIO-Antico-Bianco-2.5x10-Field-Tile-web.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/09/antico-colors-specs.jpg"
+    ]
+  },
+  "bardiglio": {
+    "heroImage": "hero-images/bardiglio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/03/Bardiglio-Bianco-24x48-Polished-Rectified-Field-Tileo.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/09/Bardiglio-spec-colors.jpg"
+    ]
+  },
+  "nuance-by-gio": {
+    "heroImage": "hero-images/nuance-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/10/GIO-Nuance-Verde-2x6-Matte-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/09/Nuance-specs.jpg"
+    ]
+  },
+  "brick-mood-by-gio": {
+    "heroImage": "hero-images/brick-mood-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/01/GIO-brick_mood-Black-2x10-Glossy-and-Matte-Field-Tile-2.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/09/Brick_mood-specs.jpg"
+    ]
+  },
+  "slate_montauk": {
+    "heroImage": "hero-images/slate_montauk.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/09/GIO-Slate_Montauk-Charcoal-24x24-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/10/Slate-Montauk_specs.jpg"
+    ]
+  },
+  "brick-filo-by-gio": {
+    "heroImage": "hero-images/brick-filo-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/10/GIO-Brick_Filo-Blue-Bright-Wall-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/05/Brick_Filo_colors-specs.jpg"
+    ]
+  },
+  "colori-by-gio": {
+    "heroImage": "hero-images/colori-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/11/GIO-Colori-Red-12x-24-Rectified-Field-Tile-colori.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/11/GIO-Colori-specs-colors.jpg"
+    ]
+  },
+  "macro-by-gio": {
+    "heroImage": "hero-images/macro-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/11/GIO-Macro-White-48x48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/11/GIO-Macro-colors-specs.jpg"
+    ]
+  },
+  "corton-by-gio": {
+    "heroImage": "hero-images/corton-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/11/Featuring-GIO-Corton-Beige-36-x36-Honed-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/11/Screenshot-2024-11-14-at-10.27.38 AM.png"
+    ]
+  },
+  "cream-avorio-by-gio": {
+    "heroImage": "hero-images/cream-avorio-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/03/GIO-Crema_Avorio-24-x-48-Polished-Rectified.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/11/CREMA-AVORIAO-SPECS-COLORS.jpg"
+    ]
+  },
+  "absolute-by-gio-2": {
+    "heroImage": "hero-images/absolute-by-gio-2.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/12/Featuring-GIO-Absolute-Grey-24x24-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/12/Absolute-specs-and-colors.jpg"
+    ]
+  },
+  "statuarietto-bianco": {
+    "heroImage": "hero-images/statuarietto-bianco.jpeg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/09/GIO-Statuarietto-Bianco-30-x-30-Polished-Rectified-educed.jpeg",
+      "https://www.giotile.com/wp-content/uploads/2024/12/Statuario.Bianco-specs-colors.jpg"
+    ]
+  },
+  "petrified-by-gio": {
+    "heroImage": "hero-images/petrified-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/12/GIO-Petrified-Cobalt-8x48-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/12/petrified-specs-colors.jpg"
+    ]
+  },
+  "artisan-by-gio": {
+    "heroImage": "hero-images/artisan-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/08/GIO-Artisan-White-Glossy-3x12-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/08/Artisan-colors-specs.jpg"
+    ]
+  },
+  "slate-ardosia-by-gio": {
+    "heroImage": "hero-images/slate-ardosia-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/04/GIO-Slate_Ardosia-Charcoal-24-x-48-Honed-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/01/GIO-slate_ardosia-specs-colors.jpg"
+    ]
+  },
+  "select-by-gio": {
+    "heroImage": "hero-images/select-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/01/GIO-Select-Barrell-Beige-9x36-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/01/GIO-Select-colors-and-specs.jpg"
+    ]
+  },
+  "frammento-by-gio": {
+    "heroImage": "hero-images/frammento-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/09/GIO-Frammento-Beige-24-x48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/09/GIO-frammento-specs-colors.jpg"
+    ]
+  },
+  "reale-by-gio": {
+    "heroImage": "hero-images/reale-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2021/02/GIO-Reale-Noce-12x24-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/02/REALE-COLORS-SPECS.jpg"
+    ]
+  },
+  "geometry-squared-collection-by-gio": {
+    "heroImage": "hero-images/geometry-squared-collection-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2016/02/Geometry-squared.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/02/geometry-squared-specs-colors.jpg"
+    ]
+  },
+  "rigato-by-gio": {
+    "heroImage": "hero-images/rigato-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/08/GIO-Rigato-10x30-Calcatta-10x30-Calcatta-Velvet.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/12/Rigato-specs-colors.jpg"
+    ]
+  },
+  "slab-48-by-gio": {
+    "heroImage": "hero-images/slab-48-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/06/GIO-Slab_48-Onyx-Green-48-x110-Polished.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/06/Slab_48-group-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/06/GIO-Slab_48-Calacatta-Gold-24x48-Polished-Floor-and-48-x110-Polished-Wall.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/06/Slab_48-group-2.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/06/GIO-Slab_48-Invisible-Light-48x102-Honed-slab.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/06/Slab-48-group-3.jpg"
+    ]
+  },
+  "quarzo-by-gio": {
+    "heroImage": "hero-images/quarzo-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/02/GIO-Quarzo-24-x-48-Polished-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/02/Quartzo-specs-colors.jpg"
+    ]
+  },
+  "marmi-lux": {
+    "heroImage": "hero-images/marmi-lux.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/02/g-GIO-Marmi_Lux-Amina-DG-30-x30-Matte-Field-Tile-and-Grigio-LG-and-Calacatta-GO-12x12-Matte-Field-Tile-NEW-SIZE.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/02/Marmi_Lux-specs-colors.jpg"
+    ]
+  },
+  "ridges-by-gio": {
+    "heroImage": "hero-images/ridges-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/02/GIO-Ridges-Bianco-12-x-36-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/02/Ridges-specs-colors.jpg"
+    ]
+  },
+  "granello-by-gio": {
+    "heroImage": "hero-images/granello-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/03/GIO-Granello-Clay-Griege-24-x-24-Vivid-Semi-Polished-Finish-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/03/GIO-Granello-colors-specs.jpg"
+    ]
+  },
+  "pietra-marmi-by-gio": {
+    "heroImage": "hero-images/pietra-marmi-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2017/04/Screen-Shot-2017-04-12-at-10.56.40-AM.png",
+      "https://www.giotile.com/wp-content/uploads/2025/03/Pietra-Marmi-specs-colors-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2017/04/Pietra-marmi-princess-grey-textured-and-honed-mosaic-.png",
+      "https://www.giotile.com/wp-content/uploads/2025/03/Pietra-marmi-specs-colors-2.jpg"
+    ]
+  },
+  "pebbles-by-gio": {
+    "heroImage": "hero-images/pebbles-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2018/11/Pebbles-floor-and-wall-tile-by-GIO-.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/03/pebbles-colors-specs-1.jpg"
+    ]
+  },
+  "trevizo-by-gio": {
+    "heroImage": "hero-images/trevizo-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/02/GIO-Trevizo-White-3-x-24-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/04/GIO-Trevizo-colors-specs.jpg"
+    ]
+  },
+  "maximus-by-gio": {
+    "heroImage": "hero-images/maximus-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2014/05/Maximus.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/04/GIO-MAximus-colors-specs.jpg"
+    ]
+  },
+  "pavers-by-gio": {
+    "heroImage": "hero-images/pavers-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/10/GIO-Pavers-24x48-Vein-Cut-Travertine-Silver-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/10/GIO-pavers-specs-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/10/GIO-Pavers-Crosscut-Crema-24x24-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/10/Gio-pavers-specs-2.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/10/GIO-Pavers-Beige-Oak-24-x-48-Rectified-Field-TilePorcelain-Paver.jpg",
+      "https://www.giotile.com/wp-content/uploads/2024/10/GIO-pavers-specs-3.jpg"
+    ]
+  },
+  "workshop-by-gio": {
+    "heroImage": "hero-images/workshop-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/06/Featuring-GIO-Workshop-Medium-Grey-24x48-Honed-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/06/workshop-colors-specs-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2023/02/GIO-Workshop-Sage-12-x-24-Linear-Rectified-Field-Tile-reduced.jpeg",
+      "https://www.giotile.com/wp-content/uploads/2025/05/wworkshop.png"
+    ]
+  },
+  "essentials-by-gio": {
+    "heroImage": "hero-images/essentials-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/03/GIO-Essentials-Light-Grey-12x24-Field-Tile-essentials.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/06/GIO-Essentials-colors-specs.jpg"
+    ]
+  },
+  "mix-by-gio": {
+    "heroImage": "hero-images/mix-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/06/GIO-Mix-Greige-12-x-24-Field-Tile-mix.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/06/GIO-Mix-colors-specs.jpg"
+    ]
+  },
+  "verde_alpi": {
+    "heroImage": "hero-images/verde_alpi.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/06/GIO-Verde_Alpi-24-x-48-Polished-Rectified-Field-Tile-verde--scaled.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/06/Verde_Aplpi-colors-specs.jpg"
+    ]
+  },
+  "layers-by-gio": {
+    "heroImage": "hero-images/layers-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/06/GIO-Layers-Shadow-12-x-24-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/06/GIO-Layers-spec-colors.jpg"
+    ]
+  },
+  "colorplay-by-gio": {
+    "heroImage": "hero-images/colorplay-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/08/GIO-Colorplay-Crema-2-x-10-Bright-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/07/GIO-Colorplay-specs-colors.jpg"
+    ]
+  },
+  "glass-stone-collection-by-gio": {
+    "heroImage": "hero-images/glass-stone-collection-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2014/12/Glass-Stone-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/07/Glass_stone_collection.jpg"
+    ]
+  },
+  "giio-metal-tiles": {
+    "heroImage": "hero-images/giio-metal-tiles.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2014/05/Handmade-square-1024x1024.png"
+    ]
+  },
+  "ceppo-prima_by_gio": {
+    "heroImage": "hero-images/ceppo-prima_by_gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/07/GIO-Ceppo_Prima-Warm-Grey-24-x-48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/07/ceppo_prima-specs-colors.jpg"
+    ]
+  },
+  "breccia_crema_by_gio": {
+    "heroImage": "hero-images/breccia_crema_by_gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/07/GIO-Breccia_Crema-24-x-48-Honed-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/07/breccia_crema.jpg"
+    ]
+  },
+  "canela-by-gio": {
+    "heroImage": "hero-images/canela-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/07/GIO-Canela-24-x-48-Honed-Rectified-Field-Tile-canela.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/07/GIO-Canela-specs.jpg"
+    ]
+  },
+  "acqua-by-gio": {
+    "heroImage": "hero-images/acqua-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/08/GIO-Acqua-Sand-2.5-x5-Wall-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/08/ACQUA-wall-tile-specs-colors.jpg"
+    ]
+  },
+  "sabbiosa-by-gio": {
+    "heroImage": "hero-images/sabbiosa-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/08/Sabbiosa-Anthraacite-12-x-24-Rectified-Linear-Decor.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/08/Sabbisoa-specs-colors.jpg"
+    ]
+  },
+  "marmi_revival": {
+    "heroImage": "hero-images/marmi_revival.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/08/Marmi_Revival-Nero-and-Oro-12-x-12-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/08/Marmi_revival-specs-colors.jpg"
+    ]
+  },
+  "cemento": {
+    "heroImage": "hero-images/cemento.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/08/GIO-Cemento-Greige-48-x-48-Rectified-Field-Tile-cemento.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/08/Cemento-specs-colors.jpg"
+    ]
+  },
+  "rapolano-by-gio": {
+    "heroImage": "hero-images/rapolano-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/09/GIO-Rapolano-Beige-24-x48-Linear-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/09/GIO-Rapolano-colors-specs.jpg"
+    ]
+  },
+  "mural-by-gio": {
+    "heroImage": "hero-images/mural-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/04/GIO-Mural-Aqua-Onyx-24x48-Polished-Rectified.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/09/Mural-specs-colors.jpg"
+    ]
+  },
+  "3d-pietra-by-gio": {
+    "heroImage": "hero-images/3d-pietra-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2024/12/GIO-3D-Pietra-Collection-Fossil-White-Limestone-Splitface-6x24-3D.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/10/3d-pietra-colors-specs.jpg"
+    ]
+  },
+  "curve-by-gio": {
+    "heroImage": "hero-images/curve-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/10/GIO-Curve-Blue-4-x-16-Matte-Grooved-Reeded-Wall-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/10/GIO-Curve-specs-colors-.jpg"
+    ]
+  },
+  "simplestone-by-gio": {
+    "heroImage": "hero-images/simplestone-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/10/GIO-Simplestone-Gray-12x24-Matte-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/10/Simplestone-specs-colors.jpg"
+    ]
+  },
+  "stoneline-by-gio": {
+    "heroImage": "hero-images/stoneline-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/10/GIO-Stoneline-Sand-Beige-12-x-24-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/10/Stoneline-specs-colors.jpg"
+    ]
+  },
+  "arabescato-vagli-by-gio": {
+    "heroImage": "hero-images/arabescato-vagli-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/10/GIO-Arabescato_Vagli-24-x-48-Matte-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/10/arabescato_vagli_COLORS-SPECS.png"
+    ]
+  },
+  "luce-by-gio": {
+    "heroImage": "hero-images/luce-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/11/GIO-Luce-Cream-24-x-48-Rectified-Field-Tile-and-24-x-48-Rectified-3D-Decoria.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/11/GIO-Luce-specs-colors.jpg"
+    ]
+  },
+  "bergen-by-gio": {
+    "heroImage": "hero-images/bergen-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/11/GIO-Bergen-Natural-24-x-48-Rectified-Fluted-Linear-Wall-Decor.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/11/bergen-specs-and-colors.jpg"
+    ]
+  },
+  "geometric-penny-round-collection": {
+    "heroImage": "hero-images/geometric-penny-round-collection.jpeg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2022/03/GIO-Geometry-Pennyround-Collection-Standard-Glossy-Black-Bright-copy.jpeg",
+      "https://www.giotile.com/wp-content/uploads/2025/11/Geometry-pennyrounds-specs-colors.jpg"
+    ]
+  },
+  "taj-by-gio": {
+    "heroImage": "hero-images/taj-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/11/GIO-Taj-24-x-48-Matte-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/11/GIO-TAJ-specs-colors.jpg"
+    ]
+  },
+  "bianco-camouflage-by_gio": {
+    "heroImage": "hero-images/bianco-camouflage-by_gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/11/GIO-Bianco_Camouflage-24-x-48-Matte-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/11/Screenshot-2025-11-19-at-1.18.12-PM.png"
+    ]
+  },
+  "contempo": {
+    "heroImage": "hero-images/contempo.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2018/01/Contempo-by-GIO-Floor-and-Wall-Tile-.png",
+      "https://www.giotile.com/wp-content/uploads/2025/11/Contempo-specs-colors.jpg"
+    ]
+  },
+  "brick-dimension-by-gio": {
+    "heroImage": "hero-images/brick-dimension-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/11/GIO-Brick_Dimension-Beige-2-x-9-Brick-Decor-Wall-and-Taj-24-x-48-Matte-Rectified-Field-Tile-Floor.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/11/Brick_Dimension-specs-colors.jpg"
+    ]
+  },
+  "shell-by-gio": {
+    "heroImage": "hero-images/shell-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/12/GIO-Shell-Sand-24-x-48-Rectified-Linear-Decoria-Wall-and-12-x-24-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/12/GIO-Shell-tile-specs-colors.jpg"
+    ]
+  },
+  "rosata-by-gio": {
+    "heroImage": "hero-images/rosata-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/02/GIO-Rosata-24x48-Polished-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/02/GIO-Rosata-specs-colors.jpg"
+    ]
+  },
+  "fio-by-gio": {
+    "heroImage": "hero-images/fio-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/02/GIO-Fio-Glossy-Gold-4-x-4-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/02/GIO-FIIO-specs-colors.jpg"
+    ]
+  },
+  "quartzite-gio": {
+    "heroImage": "hero-images/quartzite-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/12/GIO-Quartzite-Beige-12-x-24-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2025/12/Gio-quartzite-specs-colors.jpg"
+    ]
+  },
+  "mosa-by-gio": {
+    "heroImage": "hero-images/mosa-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2025/09/GIO-Mosa-Beige-24-x48-Rectified-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/01/GIO-Mosa-specs-and-colors.jpg"
+    ]
+  },
+  "picket-by-gio": {
+    "heroImage": "hero-images/picket-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2019/06/GIO-Picket-Glazed-Porcelain-Wall-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/01/GIO-picket-specs-colors.jpg"
+    ]
+  },
+  "reflections-by-gio": {
+    "heroImage": "hero-images/reflections-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2026/01/GIO-Reflections-Bronze-4-x-7-Glossy-Beveled-Hexagon-Mosaic-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/01/GIO-Reflections-Glass-tile-specs-colors.jpg"
+    ]
+  },
+  "terrazzo-by-gio": {
+    "heroImage": "hero-images/terrazzo-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2018/06/Terrazzo-Anthracite-Matte-Rectified-24-x24.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/02/GIO-Terrazzo-specs-colors.jpg"
+    ]
+  },
+  "rena-by-gio": {
+    "heroImage": "hero-images/rena-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2026/02/GIO-Rena-Tan-2.5x-8-Wall-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/02/Gio-rena-spcs-colors.jpg"
+    ]
+  },
+  "toscana-by-gio": {
+    "heroImage": "hero-images/toscana-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2026/02/GIO-Toscana-Viola-2x-10-Antiqued-FIeld-Tile-toscana.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/02/GIO-Toscana-specs-colors.jpg"
+    ]
+  },
+  "soho-by-gio": {
+    "heroImage": "hero-images/soho-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2023/06/GIO-Soho-Light-Grey-24x24-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/02/GIO-Soho-specs-colors.jpg"
+    ]
+  },
+  "royale-by-gio": {
+    "heroImage": "hero-images/royale-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2026/03/GIO-Royale-Beige-24-x-48-Matte-Rectified-Field-Tile-1.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/03/Royale-specs-colors.jpg"
+    ]
+  },
+  "midtown-by-gio": {
+    "heroImage": "hero-images/midtown-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2014/05/Midtown.png",
+      "https://www.giotile.com/wp-content/uploads/2026/03/Midtown-colors-specs.jpg"
+    ]
+  },
+  "progetto-by-gio": {
+    "heroImage": "hero-images/progetto-by-gio.png",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2017/06/Progetto-floor-and-wall-tile-by-GIO.png",
+      "https://www.giotile.com/wp-content/uploads/2026/03/Progetto-colors-specs-1.jpg"
+    ]
+  },
+  "zellige-by-gio": {
+    "heroImage": "hero-images/zellige-by-gio.jpg",
+    "allImages": [
+      "https://www.giotile.com/wp-content/uploads/2026/03/GIO-Zellige-Riad-White-4x-4-Field-Tile.jpg",
+      "https://www.giotile.com/wp-content/uploads/2026/03/ZELLIGE-SPECS-COLORS.jpg"
+    ]
+  }
+}

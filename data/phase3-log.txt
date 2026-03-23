@@ -1,0 +1,985 @@
+GIO Tile - Product Image Downloader
+
+
+============================================================
+PHASE 3: Match images to products and upload to Sanity
+============================================================
+
+Found 124 collections with downloaded images
+
+  > 3d-pietra-by-gio: 16 images, 15 products
+    + 3D PIETRA_amber quartz.jpg -> Amber quartz splitface
+    ? 3D PIETRA_anthracite limestone flamed_sandblasted_&_honed.jpg — no match found
+    + 3D PIETRA_anthracite slate.jpg -> Anthracite slate splitface
+    + 3D PIETRA_argento quartz.jpg -> Argento quartz splitface
+    + 3D PIETRA_athens grey marble splitface.jpg -> Athens grey marble splitface
+    + 3D PIETRA_bianco quartz.jpg -> Bianco quartz splitface
+    + 3D PIETRA_bianco vein marble honed.jpg -> Bianco vein marble honed
+    + 3D PIETRA_bianco vein textured.jpg -> Bianco vein marble textured
+    + 3D PIETRA_black diamond quartz splitface.jpg -> Black diamond quartz splitface
+    ? 3D PIETRA_crema reale honed.jpg — no match found
+    ? 3D PIETRA_crema reale textured.jpg — no match found
+    ? 3D PIETRA_lava limestone flamed_sandblasted_&_honed.jpg — no match found
+    + 3D PIETRA_multicolor slate.jpg -> Multicolor slate splitface
+    + 3D PIETRA_silver beige quartz splitface.jpg -> Silver beige quartz splitface
+    + 3D PIETRA_venatino bianco honed.jpg -> Bianco vein marble honed
+    + 3D PIETRA_venatino bianco textured.jpg -> Bianco vein marble textured
+  - absolute-by-gio-2 — no products in Sanity
+  > acqua-by-gio: 9 images, 27 products
+    + GIO.Acqua.Black.jpg -> Black
+    + GIO.Acqua.Coastal.Taupe.jpg -> Coastal taupe
+    + GIO.Acqua.Green.jpg -> Green
+    + GIO.Acqua.Grey.jpg -> Grey
+    + GIO.Acqua.Navy.Midnight.jpg -> Navy midnight
+    + GIO.Acqua.Pale.Blue.jpg -> Pale blue
+    + GIO.Acqua.Sand.jpg -> Sand
+    + GIO.Acqua.Teal.jpg -> Teal
+    + GIO.Acqua.White.jpg -> White
+  > agata-by-gio: 1 images, 3 products
+    + GIO_Agata.jpg -> Agata
+  > alloy-by-gio: 4 images, 8 products
+    + GIO_Alloy_Anthracite.jpg -> Anthracite
+    + GIO_Alloy_Bianco.jpg -> Bianco
+    + GIO_Alloy_Grey.jpg -> Grey
+    + GIO_Alloy_JADE.jpg -> Jade
+  > antico-by-gio: 10 images, 10 products
+    + GIO_ANTICO_AQUA.jpg -> Aqua
+    + GIO_ANTICO_ARGENTO.Kit.Kat.jpg -> Argento
+    + GIO_ANTICO_ARGENTO.jpg -> Argento
+    + GIO_ANTICO_Aqua.Kit.Kat.jpg -> Aqua
+    + GIO_ANTICO_BIANCO.jpg -> Bianco
+    + GIO_ANTICO_Bianco.Kit.Kat.jpg -> Bianco
+    + GIO_ANTICO_COBALT.jpg -> Cobalt
+    + GIO_ANTICO_Cobalt.Kit.Kat.jpg -> Cobalt
+    + GIO_ANTICO_NERO.jpg -> Nero
+    + GIO_ANTICO_Nero.Kit.Kat.jpg -> Nero
+  > arabescato-vagli-by-gio: 1 images, 13 products
+    ? GIO.arabescato_vagli.2.jpg — no match found
+  > ardesia-by-gio: 4 images, 24 products
+    + GIO_ARDESIA_BEIGE.jpg -> Beige
+    + GIO_ARDESIA_BIANCO.jpg -> Bianco
+    + GIO_ARDESIA_DARK_GREY.jpg -> Dark grey
+    + GIO_ARDESIA_Grey.jpg -> Grey
+  > arte-by-gio: 5 images, 6 products
+    + ARTE_BIANCO.jpg -> Bianco
+    + ARTE_BLACK.jpg -> Black
+    + ARTE_BORDEAUX.jpg -> Bordeaux
+    + ARTE_COBALT.jpg -> Cobalt
+    + ARTE_CREAM.jpg -> Cream
+  > artisan-by-gio: 6 images, 21 products
+    + Artisan.DesertSand.jpg -> Desert sand
+    + Artisan.EarthBeige.jpg -> Earth beige
+    + Artisan.MistGrey.jpg -> Mist grey
+    + Artisan.OceanTide.jpg -> Ocean tide
+    + Artisan.SmokeGrey.jpg -> Smoke grey
+    + Artisan.White.jpg -> White
+  > atelier-by-gio: 4 images, 12 products
+    + Atelier_BEIGE.jpg -> Beige
+    + Atelier_BIANCO.jpg -> Bianco
+    + Atelier_GREY.jpg -> Grey
+    + Atelier_TAUPE.jpg -> Taupe
+  > bardiglio: 2 images, 16 products
+    + Bardiglio_BIANCO.jpg -> Bianco
+    + Bardiglio_GREIGE.jpg -> Greige
+  > barista-by-gio: 5 images, 12 products
+    + BARISTA_BIANCO.jpg -> Bianco
+    ? BARISTA_BLACK.jpg — no match found
+    + BARISTA_DOVE_GREY.jpg -> Dove grey
+    + BARISTA_IVORY.jpg -> Ivory
+    + BARISTA_SIVER_GREY.jpg -> Dove grey
+  > barnwood-by-gio: 3 images, 3 products
+    + Barnwood.BIANCO.jpg -> Bianco
+    + Barnwood.DARK.BEIGE.jpg -> Dark brown
+    + Barnwood.GREY.jpg -> Grey
+  > basaltina-by-gio: 5 images, 25 products
+    + Basaltina_ANTHRACITE.jpg -> Anthracite
+    + Basaltina_BEIGE.jpg -> Beige
+    + Basaltina_GREY.jpg -> Grey
+    + Basaltina_SAGE.jpg -> Sage
+    + Basaltina_WHITE.jpg -> White
+  > bergen-by-gio: 9 images, 11 products
+    + GIO.Bergen.Almond.Decor.jpg -> Almond
+    + GIO.Bergen.Almond.Flutted.jpg -> Almond
+    + GIO.Bergen.Almond.jpg -> Almond
+    + GIO.Bergen.Honey.Decor.jpg -> Honey
+    + GIO.Bergen.Honey.Fluted.jpg -> Honey
+    + GIO.Bergen.Honey.jpg -> Honey
+    + GIO.Bergen.Natural.Decor.jpg -> Natural
+    + GIO.Bergen.Natural.Fluted.jpg -> Natural
+    + GIO.Bergen.Natural.jpg -> Natural
+  > bianca-by-gio: 2 images, 24 products
+    + GIO.BIANCA.Carrara.jpg -> Carrara
+    + GIO.BIANCA.Nuvolato.Silk.jpg -> Nuvolato silk
+  - bianco-camouflage-by_gio — no products in Sanity
+  > blendstone-by-gio: 5 images, 5 products
+    + GIO.Blendstone.Bianco.jpg -> Bianco
+    + GIO.Blendstone.Blue.jpg -> Blue
+    + GIO.Blendstone.Graphite.jpg -> Graphite
+    + GIO.Blendstone.Silver.jpg -> Silver
+    + GIO.Blendstone.Verde.jpg -> Verde
+  > bluestone_pierre: 2 images, 5 products
+    + Bluestone.Pierre.Grigio.jpg -> Grigio
+    + Bluestone.Pierre.Nero.jpg -> Nero
+  > breccia_crema_by_gio: 2 images, 6 products
+    + GIO.Breccia.Crema.2.jpg -> Breccia crema
+    + GIO.Breccia.Crema.jpg -> Breccia crema
+  - brick-by-gio — no products in Sanity
+  > brick-dimension-by-gio: 12 images, 12 products
+    + GIO.Brick.Dimension.Beige.Decor.jpg -> Beige
+    + GIO.Brick.Dimension.Beige.jpg -> Beige
+    + GIO.Brick.Dimension.Bianco.Decor.jpg -> Bianco
+    + GIO.Brick.Dimension.Bianco.jpg -> Bianco
+    + GIO.Brick.Dimension.Blue.Decor.jpg -> Blue
+    + GIO.Brick.Dimension.Blue.jpg -> Blue
+    + GIO.Brick.Dimension.Grigio.Decor.jpg -> Grigio
+    + GIO.Brick.Dimension.Grigio.jpg -> Grigio
+    + GIO.Brick.Dimension.Nero.Decor.jpg -> Nero
+    + GIO.Brick.Dimension.Nero.jpg -> Nero
+    + GIO.Brick.Dimension.Verde.Decor.jpg -> Verde
+    + GIO.Brick.Dimension.Verde.jpg -> Verde
+  > brick-filo-by-gio: 12 images, 12 products
+    + GIO.Brick.Filo_Basilica.Grey.Deco.jpg -> Basilica grey
+    + GIO.Brick.Filo_Basilica.Grey.jpg -> Basilica grey
+    + GIO.Brick.Filo_Bianco.Deco.jpg -> Bianco
+    + GIO.Brick.Filo_Bianco.jpg -> Bianco
+    + GIO.Brick.Filo_Blue.Deco.jpg -> Blue
+    + GIO.Brick.Filo_Blue.jpg -> Blue
+    + GIO.Brick.Filo_Putty.Deco.jpg -> Putty
+    + GIO.Brick.Filo_Putty.jpg -> Putty
+    + GIO.Brick.Filo_Sage.Deco.jpg -> Sage
+    + GIO.Brick.Filo_Sage.jpg -> Sage
+    ? GIO.Brick.Filo_Turqouise.Deco.jpg — no match found
+    ? GIO.Brick.Filo_Turqouise.jpg — no match found
+  > brick-mood-by-gio: 10 images, 24 products
+    + BrickMood_Beige_Glossy.jpg -> Beige
+    + BrickMood_Beige_Matte.jpg -> Beige
+    + BrickMood_Black_Glossy.jpg -> Black
+    + BrickMood_Black_Matte.jpg -> Black
+    + BrickMood_Blue_Glossy.jpg -> Blue
+    + BrickMood_Blue_Matte.jpg -> Blue
+    + BrickMood_Grey_Glossy.jpg -> Grey
+    + BrickMood_Grey_Matte.jpg -> Grey
+    + BrickMood_White_Glossy.jpg -> White
+    + BrickMood_White_Matte.jpg -> White
+  > brick_cotto: 6 images, 6 products
+    + GIO.Brick.Cotto.Bianco.jpg -> Bianco
+    + GIO.Brick.Cotto.Cafe.jpg -> Cafe
+    + GIO.Brick.Cotto.Natural.jpg -> Natural
+    + GIO.Brick.Cotto.Nero.jpg -> Nero
+    + GIO.Brick.Cotto.Rosso.jpg -> Rosso
+    + GIO.Brick.Cotto.Verde.jpg -> Verde
+  > brick_roma_by_gio: 5 images, 5 products
+    + GIO_Brick_Roma_Aquamarine.jpg -> Aquamarine
+    + GIO_Brick_Roma_Light_Grey.jpg -> Light grey
+    + GIO_Brick_Roma_Red.jpg -> Red
+    + GIO_Brick_Roma_Sky_Blue.jpg -> Sky blue
+    + GIO_Brick_Roma_White.jpg -> White
+  > calacatta-by-gio: 2 images, 7 products
+    + CALCATTA_GOLD.jpg -> Gold
+    ? CALCATTA_SOHO_SILVER.jpg — no match found
+  > cardoso: 3 images, 18 products
+    + Cardoso_Anthracite.jpg -> Anthracite
+    + Cardoso_Bianco.jpg -> Bianco
+    + Cardoso_Grey.jpg -> Grey
+  > carrara-by-gio: 9 images, 36 products
+    + CARARRA_CLASSICO.jpg -> Classico
+    + CARARRA_GRIGIO.jpg -> Grigio
+    + CARARRA_VEIN.jpg -> Vein
+    + Cararra_Striato12x24.jpg -> Striato
+    + Carrara.Striato_12x24.jpg -> Striato
+    + Carrara.Striato_24x48.jpg -> Striato
+    + Carrara.Striato_BN.jpg -> Striato
+    + Carrara.Striato_CB.jpg -> Striato
+    + Carrara.Striato_MOS.jpg -> Striato
+  > cemento: 4 images, 24 products
+    + Cemento_DarkGrey.jpg -> Dark grey
+    + Cemento_Greige.jpg -> Greige
+    + Cemento_Light.jpg -> Light
+    + Cemento_Silver.jpg -> Silver
+  > ceppo-prima_by_gio: 4 images, 16 products
+    + GIO.Ceppo.Light.Grey.jpg -> Light grey
+    + GIO.Ceppo.Smokey.Grey.jpg -> Smokey grey
+    + GIO.Ceppo.Warm.Grey.jpg -> Warm grey
+    + GIO.Ceppo.White.jpg -> White
+  > chalk-by-gio: 5 images, 20 products
+    + GIO.Chalk.Black.jpg -> Black
+    ? GIO.Chalk.Creme.jpg — no match found
+    + GIO.Chalk.Grey.jpg -> Grey
+    + GIO.Chalk.Noce.jpg -> Noce
+    + GIO.Chalk.tan.jpg -> Tan
+  > choma-by-gio: 27 images, 27 products
+    + Chroma.Amoretto.Fluted&Glossy.jpg -> Amoretto
+    + Chroma.Amoretto.Glossy.jpg -> Amoretto
+    + Chroma.Amoretto.Matte.jpg -> Amoretto
+    + Chroma.Anthracite,Fluted&Glossy.jpg -> Anthracite
+    + Chroma.Anthracite.Glossy.jpg -> Anthracite
+    + Chroma.Anthracite.Matte.jpg -> Anthracite
+    + Chroma.Bianco.Fluted&Glossy.jpg -> Bianco
+    + Chroma.Bianco.Glossy.jpg -> Bianco
+    + Chroma.Bianco.Matte..jpg -> Bianco
+    + Chroma.Grey.Fluted&Glossy.jpg -> Grey
+    + Chroma.Grey.Glossy.jpg -> Grey
+    + Chroma.Grey.Matte.jpg -> Grey
+    + Chroma.Lavender.Fluted&Glossy.jpg -> Lavender
+    + Chroma.Lavender.Glossy.jpg -> Lavender
+    + Chroma.Lavender.Matte.jpg -> Lavender
+    + Chroma.Rose.Fluted&Glossy.jpg -> Rose
+    + Chroma.Rose.Glossy.jpg -> Rose
+    + Chroma.Rose.Matte.jpg -> Rose
+    + Chroma.Taupe.Fluted&Glossy.jpg -> Taupe
+    + Chroma.Taupe.Glossy.jpg -> Taupe
+    + Chroma.Taupe.Matte.jpg -> Taupe
+    + Chroma.Turquoise.Fluted&Glossy.jpg -> Turquoise
+    + Chroma.Turquoise.Glossy.jpg -> Turquoise
+    + Chroma.Turquoise.Matte.jpg -> Turquoise
+    + Chroma.Yellow.Fluted&Glossy.jpg -> Yellow
+    + Chroma.Yellow.Glossy.jpg -> Yellow
+    + Chroma.Yellow.Matte.jpg -> Yellow
+  > claystone-by-gio: 4 images, 12 products
+    + CLAYSTONE_ANTHRACITE.jpg -> Anthracite
+    + CLAYSTONE_SILVER.jpg -> Silver
+    + CLAYSTONE_STERLING_GREY.jpg -> Tender grey
+    + CLAYSTONE_TENDER_GREY.jpg -> Tender grey
+  > coccio-by-gio: 3 images, 4 products
+    + GIO_Coccio_Dark.Graphite.jpg -> Dark graphite
+    + GIO_Coccio_Ivory.Calce.jpg -> Ivory calce
+    + GIO_Coccio_Silver.Cenere.jpg -> Silver cenere
+  - colori-by-gio — no products in Sanity
+  - contempo — no products in Sanity
+  > corton-by-gio: 4 images, 27 products
+    + GIO.Corton.Beige.jpg -> Beige
+    + GIO.Corton.Taupe.jpg -> Taupe
+    ? Unknown-1.jpeg — no match found
+    ? Unknown.jpeg — no match found
+  > cotto-cemento-by-gio: 12 images, 9 products
+    + GIO.Cotto.Cemento_Aqua.Blue.jpg -> Aqua blue
+    + GIO.Cotto.Cemento_Beige.jpg -> Beige
+    + GIO.Cotto.Cemento_Burgundy.jpg -> Burgundy
+    + GIO.Cotto.Cemento_Grey.jpg -> Grey
+    + GIO.Cotto.Cemento_Rust.jpg -> Rust
+    + GIO.Cotto.Cemento_White.jpg -> White
+    ? Luxury Amani Bronze Panel.jpg — no match found
+    + Luxury Amani Grey Panel.jpg -> Grey
+    ? Luxury Calacatta Panel.jpg — no match found
+    ? Luxury Marfil Panel.jpg — no match found
+    ? Luxury Nero Marquina_12x24_Matte_Panel.jpg — no match found
+    ? Luxury Nero Marquina_12x24_Polished_Panel.jpg — no match found
+  > cream-avorio-by-gio: 1 images, 7 products
+    ? GIO_Crema_Avorio.jpg — no match found
+  > crystal-glass-collection-by-gio: 22 images, 16 products
+    + CRYSTAL_GLASS_2x6_BRICK_BIANCO.jpg -> Bianco
+    + CRYSTAL_GLASS_2x6_BRICK_BONE.jpg -> Bone
+    + CRYSTAL_GLASS_2x6_BRICK_DARK_BEIGE.jpg -> Dark beige
+    + CRYSTAL_GLASS_2x6_BRICK_DARK_SILVER.jpg -> Dark beige
+    + CRYSTAL_GLASS_2x6_BRICK_GREY_SAGE.jpg -> Grey sage
+    ? CRYSTAL_GLASS_2x6_BRICK_GRPAHITE.jpg — no match found
+    + CRYSTAL_GLASS_3X12_BIANCO.jpg -> Bianco
+    + CRYSTAL_GLASS_3X12_BONE.jpg -> Bone
+    + CRYSTAL_GLASS_3X12_DARK_BEIGE.jpg -> Dark beige
+    + CRYSTAL_GLASS_3X12_DARK_SILVER.jpg -> Dark beige
+    + CRYSTAL_GLASS_3X12_GRAPHITE.jpg -> Graphite blend
+    + CRYSTAL_GLASS_3X12_GREY_SAGE.jpg -> Grey sage
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_RAND_LIN_BIANCO.jpg -> Bianco
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_RAND_LIN_BONE.jpg -> Bone
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_RAND_LIN_DARKBEIGE.jpg -> Dark beige
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_RAND_LIN_GRAPHITE.jpg -> Graphite blend
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_RAND_LIN_GREY_SAGE.jpg -> Grey sage
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_RAND_LIN_SILVERBEIGE.jpg -> Silver beige
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_STRAIGHT_STACKED_BEIGE.jpg -> Dark beige stacked
+    + CRYSTAL_GLASS_CRYSTAL_GLASS_STRAIGHT_STACKED_GRAPHITE.jpg -> Graphite stacked
+    + CRYSTAL_GLASS_blend_RAND_linear_DARK_BEIGE.jpg -> Dark beige
+    + CRYSTAL_GLASS_blend_RAND_linear_GRAPHITE.jpg -> Graphite blend
+  > curve-by-gio: 10 images, 10 products
+    + GIO.Curve.Blue.Grooved.jpg -> Blue
+    + GIO.Curve.Blue.Raised.jpg -> Blue
+    + GIO.Curve.Bone.Grooved.jpg -> Bone
+    + GIO.Curve.Bone.Raised.jpg -> Bone
+    + GIO.Curve.Cotto.Almond.Grooved.jpg -> Cotto almond
+    + GIO.Curve.Cotto.Almond.Raised.jpg -> Cotto almond
+    + GIO.Curve.White.Grooved.Glossy.jpg -> White
+    + GIO.Curve.White.Grooved.Matte.jpg -> White
+    + GIO.Curve.White.Raised.Glossy.jpg -> White
+    + GIO.Curve.White.Raised.Matte.jpg -> White
+  > dorato-by-gio: 4 images, 12 products
+    + DORATO_BEIGE.jpg -> Beige
+    + DORATO_IVORY.jpg -> Ivory
+    + DORATO_SILVER_GREY.jpg -> Silver grey
+    + DORATO_WARM_GREY.jpg -> Warm grey
+  > emilia-by-gio: 2 images, 3 products
+    + GIO_Emilia.Versailles.jpg -> Emilia
+    + GIO_Emilia.jpg -> Emilia
+  > essentials-by-gio: 4 images, 20 products
+    + GIO.Essentials.Beige.jpg -> Beige
+    + GIO.Essentials.DarkGrey.jpg -> Dark grey
+    + GIO.Essentials.LightGrey.jpg -> Light grey
+    + GIO.Essentials.White.jpg -> White
+  > fio-by-gio: 11 images, 11 products
+    + GIO.Fio.Glossy.DeepBlue.jpg -> Deep blue
+    + GIO.Fio.Glossy.Gold.jpg -> Gold
+    + GIO.Fio.Glossy.Green.jpg -> Green
+    + GIO.Fio.Glossy.Mint.jpg -> Mint
+    + GIO.Fio.Glossy.Sage.jpg -> Sage
+    + GIO.Fio.Glossy.Sand.jpg -> Sand
+    + GIO.Fio.Glossy.White.jpg -> White
+    + GIO.Fio.Matte.Clay.jpg -> Clay
+    + GIO.Fio.Matte.Noce.jpg -> Noce
+    + GIO.Fio.Matte.Sand.jpg -> Sand
+    + GIO.Fio.Matte.White.jpg -> White
+  > frammento-by-gio: 4 images, 20 products
+    + Frammento_Beige.jpg -> Beige
+    + Frammento_Greige.jpg -> Greige
+    + Frammento_LightGrey.jpg -> Light grey
+    + Frammento_White.jpg -> White
+  > fusion-by-gio: 4 images, 19 products
+    + FUSION_BIANCO.jpg -> Bianco
+    + FUSION_BONE.jpg -> Bone
+    + FUSION_IRON.jpg -> Iron
+    + FUSION_PLATINUM.jpg -> Platinum
+  > geometric-penny-round-collection: 22 images, 33 products
+    + Geo_Penny_ArchitecturalGrey.jpg -> Grey
+    + Geo_Penny_Black.jpg -> Black
+    + Geo_Penny_BlackCarbon_UnGlazed.jpg -> Black
+    + Geo_Penny_Blue.jpg -> Blue bright
+    + Geo_Penny_BriteWhite_UnGlazed.jpg -> Brite white
+    + Geo_Penny_CobaltBlue_AntiqGloss.jpg -> Cobalt blue bright
+    ? Geo_Penny_Cream_AntiqGloss.jpg — no match found
+    + Geo_Penny_DarkLead.jpg -> Dark lead
+    + Geo_Penny_DarkLead_UnGlazed.jpg -> Dark lead
+    + Geo_Penny_Dots_Black.jpg -> Black
+    + Geo_Penny_Dots_Carrara.jpg -> Carrara matte 2"
+    + Geo_Penny_Dots_WhiteBright.jpg -> Antique white bright 2"
+    + Geo_Penny_Dots_WhiteMatte.jpg -> White matte 2"
+    ? Geo_Penny_MintGreen_AntiqGloss.jpg — no match found
+    ? Geo_Penny_Pearl_AntiqGloss.jpg — no match found
+    + Geo_Penny_Platino_UnGlazed.jpg -> Platino
+    ? Geo_Penny_Red.jpg — no match found
+    + Geo_Penny_Sage.jpg -> Sage bright
+    + Geo_Penny_Sand_AntiqGloss.jpg -> Sand
+    + Geo_Penny_StandardWhite.jpg -> Standard white bright
+    + Geo_Penny_StoneTaupe.jpg -> Stone taupe bright
+    + Geo_Penny_Vintij.jpg -> Vintij bright
+  > geometry-hex-by-gio: 31 images, 31 products
+    + 1X1_Glazed.Arch.Grey.Matte.jpg -> Architectural grey matte
+    + 1X1_Glazed.Blk.Charcoal.Glossy.jpg -> Black charcoal glossy
+    + 1X1_Glazed.Blk.White.Flower.Matte.jpg -> Black & white flower
+    + 1X1_Glazed.Cool.Grey.Glossy.jpg -> Cool grey
+    + 1X1_Glazed.SImple.White.Glossy.jpg -> Simple white
+    + 1X1_Glazed.Standard.White.Matte.jpg -> Standard white
+    + 1X1_Glazed.Stone.Taupe.Matte.jpg -> Stone taupe
+    + 1X1_Glazed.Vintij.Matte.jpg -> Vintij
+    + 1X1_Glazed.White.w.BLack.Matte.jpg -> Black & white flower
+    + 1X1_Glazed.White.w.Sage.Matte.jpg -> Sage
+    + 1X1_Glazed.White.w.Taupe.Matte.jpg -> Standard white matte
+    + 1X1_Glazed.White.w.blue.Matte.jpg -> Blue
+    + 2X2_Glaz.Struct.BlackCharcoal.jpg -> Black charcoal
+    + 2X2_Glaz.Struct.BuffKhaki.jpg -> Buff khaki
+    + 2X2_Glaz.Struct.Carrara.jpg -> Carrara
+    + 2X2_Glaz.Struct.CoolGrey.jpg -> Cool grey
+    + 2X2_Glaz.Struct.NewBiscuit.jpg -> New biscuit
+    + 2X2_Glaz.Struct.SandBeige.jpg -> Sand beige
+    + 2X2_Glaz.Struct.SimpleWhite.jpg -> Simple white
+    + 2X2_Glaze.Hex.ArchGrey.jpg -> Architectural grey
+    + 2X2_Glaze.Hex.Blue.jpg -> Blue
+    + 2X2_Glaze.Hex.Sage.jpg -> Sage
+    + 2X2_Glaze.Hex.StandardWhite.jpg -> Standard white
+    + 2X2_Glaze.Hex.StoneTaupe.jpg -> Stone taupe
+    + 2X2_Glaze.Hex.Vintiji.jpg -> Vintij
+    + 2X2_unGlaze.Hex.ArchGrey.jpg -> Architectural grey
+    + 2X2_unGlaze.Hex.BlackCarbon.jpg -> Black carbon
+    + 2X2_unGlaze.Hex.BriteWhite.jpg -> Brite white
+    + 2X2_unGlaze.Hex.DarkLead.jpg -> Dark lead
+    + 2X2_unGlaze.Hex.Platino.jpg -> Platino
+    + 2X2_unGlaze.Hex.Vintij.jpg -> Vintij
+  > geometry-picket-collection: 10 images, 15 products
+    + Geo.Picket.Architectural.Grey.jpg -> Architectural grey
+    + Geo.Picket.Cool.Blend.jpg -> Cool blend
+    + Geo.Picket.Dark.Blue.jpg -> Dark blue
+    + Geo.Picket.Light.Grey.jpg -> Light grey
+    + Geo.Picket.Purity.White.jpg -> Purify white
+    + Geo.Picket.StandardWhitej.jpg -> Standard white
+    + Geo.Picket.Stone.Taupe.jpg -> Stone taupe
+    + Geo.Picket.Taupe.jpg -> Taupe
+    ? Geo.Picket.Vintij.jpg — no match found
+    + Geo.Picket.Warm.Black.jpg -> Warm black
+  > geometry-squared-collection-by-gio: 25 images, 23 products
+    ! GIO.Gemotry.SQ.Black.jpg -> Black UPLOAD FAILED: Bad Request - Invalid image, could not read metadata
+    + GIO.Gemotry.SQ.Coastal.Taupe.jpg -> Coastal taupe
+    + GIO.Gemotry.SQ.Grey.jpg -> Grey
+    + GIO.Gemotry.SQ.MIdnightNavy.jpg -> Midnight navy
+    + GIO.Gemotry.SQ.Sand.jpg -> Sand
+    + GIO.Geom.SQ.ArchGrey.2x2.G.jpg -> Grey
+    + GIO.Geom.SQ.ArchGrey.2x2.UG.jpg -> Grey
+    ? GIO.Geom.SQ.Bone.3x3.G.jpg — no match found
+    + GIO.Geom.SQ.CoolGrey.2x2.Structured.jpg -> Cool grey
+    + GIO.Geom.SQ.DarkGrey.3x3.G.jpg -> Dark grey
+    + GIO.Geom.SQ.IceWhite.2x2.UG.jpg -> Ice white
+    + GIO.Geom.SQ.JetBlack.2x2.UG.jpg -> Black
+    + GIO.Geom.SQ.LightGrey.3x3.G.jpg -> Grey
+    + GIO.Geom.SQ.New.Biscuit.2x2.Structured.jpg -> New biscuit
+    + GIO.Geom.SQ.SimpleWhite.2x2.Structured.jpg -> Simple white
+    + GIO.Geom.SQ.Standard.White.2x2.G.jpg -> Standard white
+    + GIO.Geom.SQ.StoneTaupe.2x2.G.jpg -> Stone taupe
+    + GIO.Geom.SQ.Taupe.2x2.UG.jpg -> Taupe
+    + GIO.Geom.SQ.Travertine.3x3.G.jpg -> Travertine
+    + GIO.Geom.SQ.Vintij.2x2.G.jpg -> Vintij
+    + GIO.Geom.SQ.Vintij.2x2.UG.jpg -> Vintij
+    + GIO.Geom.SQ.WarmBlack.2x2.G.jpg -> Black
+    + GIO.Geom.SQ.Warmblack.2x2.UG.jpg -> Black
+    + GIO.Geom.SQ.White.3x3.G.jpg -> Ice white
+    + GIO.Geom.SQ.WhiteMarble.3x3.G.jpg -> White marble
+  > glass-stone-collection-by-gio: 22 images, 16 products
+    ? GLASS&STONE_.jpg — no match found
+    + GLASS&STONE_ANTHRACITE.jpg -> Anthracite
+    + GLASS&STONE_AQUA.jpg -> Aqua
+    ? GLASS&STONE_ARCTIC.jpg — no match found
+    + GLASS&STONE_BLUEICE.jpg -> Blue ice
+    + GLASS&STONE_BLUEMARINE.jpg -> Blue marine
+    + GLASS&STONE_CREMA.jpg -> Crema
+    + GLASS&STONE_EMPERADOR.jpg -> Emperador
+    + GLASS&STONE_LINEAR_ANTHRACITE.jpg -> Anthracite
+    + GLASS&STONE_LINEAR_AQUA.jpg -> Aqua
+    ? GLASS&STONE_LINEAR_ARCTIC.jpg — no match found
+    + GLASS&STONE_LINEAR_BLUEICE.jpg -> Blue ice
+    + GLASS&STONE_LINEAR_BLUEMARINE.jpg -> Blue marine
+    ? GLASS&STONE_LINEAR_CREAM.jpg — no match found
+    + GLASS&STONE_LINEAR_EMPERADOR.jpg -> Emperador
+    ? GLASS&STONE_LINEAR_MULTICOLOR.jpg — no match found
+    + GLASS&STONE_LINEAR_OLIVE.jpg -> Olive
+    ? GLASS&STONE_LINEAR_SLATEBLACK.jpg — no match found
+    ? GLASS&STONE_MULTICOLOR.jpg — no match found
+    + GLASS&STONE_OLIVE.jpg -> Olive
+    + GLASS&STONE_OPUS.jpg -> Opus
+    ? SLATEBLACK.jpg — no match found
+  > granello-by-gio: 10 images, 10 products
+    ? GIO.Granello.ANTRACITE.Vivid.jpg — no match found
+    ? GIO.Granello.ANTRACITE.jpg — no match found
+    + GIO.Granello.AVORIO.Vivid.jpg -> Avorio
+    + GIO.Granello.AVORIO.jpg -> Avorio
+    + GIO.Granello.BEIGE.Vivid.jpg -> Beige
+    + GIO.Granello.BEIGE.jpg -> Beige
+    + GIO.Granello.CLAY.GRIEGE.Vivid.jpg -> Clay greige
+    + GIO.Granello.CLAY.GRIEGE.jpg -> Clay greige
+    + GIO.Granello.WARM.GREY.Vivid.jpg -> Warm grey
+    + GIO.Granello.WARM.GREY.jpg -> Warm grey
+  > handmade-by-gio: 11 images, 23 products
+    + HANDMADE_BLUE.jpg -> Blue
+    + HANDMADE_BONE.jpg -> Bone
+    + HANDMADE_BRONZE.jpg -> Bronze
+    + HANDMADE_GREY.jpg -> Grey
+    + HANDMADE_SILVER.jpg -> Silver
+    + HANDMADE_SUPERWHITE.jpg -> Super white
+    + HANDMADE_TAUPE.jpg -> Taupe
+    + Handmade.Argento.jpg -> Argento
+    + Handmade.Concrete.jpg -> Concrete
+    + Handmade.Concrete3x6.jpg -> Concrete
+    + Handmade.OffWhite.jpg -> Super white
+  > hex-leonis-by-gio: 4 images, 4 products
+    + Hex_Leonis_BLACK.jpg -> Black
+    + Hex_Leonis_BLUE.jpg -> Blue
+    + Hex_Leonis_GREY.jpg -> Grey
+    + Hex_Leonis_WHITE.jpg -> White
+  > hex_prima: 6 images, 6 products
+    + GIO_Hex_prima light grey.jpg -> Light grey
+    + GIO_hex_prima bianco.jpg -> Bianco
+    + GIO_hex_prima black.jpg -> Black
+    + GIO_hex_prima blue.jpg -> Blue
+    + GIO_hex_prima dark grey.jpg -> Dark grey
+    + GIO_hex_prima taupe.jpg -> Taupe
+  > jura-by-gio: 3 images, 8 products
+    + GIO.Jura.LightBeige.Linear.jpg -> Light beige
+    + GIO.Jura.LightBeige.Paver.jpg -> Light beige
+    + GIO.Jura.LightBeige.jpg -> Light beige
+  > layers-by-gio: 4 images, 12 products
+    + GIO.Layers.Frost.jpg -> Frost
+    + GIO.Layers.Latte.jpg -> Latte
+    + GIO.Layers.Nickel.jpg -> Nickel
+    + GIO.Layers.Shadow.jpg -> Shadow
+  > linea-by-gio: 4 images, 28 products
+    + GIO_Linea_Beige.jpg -> Beige
+    + GIO_Linea_Grey.jpg -> Grey
+    + GIO_Linea_Taupe.jpg -> Taupe
+    + GIO_Linea_White.jpg -> White
+  > linen-by-gio: 5 images, 10 products
+    + LINEN_ALABASTER.jpg -> Alabaster
+    + LINEN_BEIGE.jpg -> Beige
+    + LINEN_BIANCO.jpg -> Bianco
+    + LINEN_GREY.jpg -> Grey
+    + LINEN_TAUPE.jpg -> Taupe
+  > luce-by-gio: 8 images, 16 products
+    + GIO.Luce.Cream.Decor.jpg -> Cream
+    + GIO.Luce.Cream.jpg -> Cream
+    + GIO.Luce.Grey.Decor.jpg -> Grey
+    + GIO.Luce.Grey.jpg -> Grey
+    + GIO.Luce.Ivory.Decor.jpg -> Ivory
+    + GIO.Luce.Ivory.jpg -> Ivory
+    + GIO.Luce.White.Decor.jpg -> White
+    + GIO.Luce.White.jpg -> White
+  > midtown-by-gio: 5 images, 20 products
+    + MIDTOWN _ANTHRACITE.jpg -> Anthracite
+    + MIDTOWN_BEIGE.jpg -> Beige
+    + MIDTOWN_BIANCO.jpg -> Bianco
+    + MIDTOWN_GREY.jpg -> Grey
+    + MIDTOWN_TAUPE.jpg -> Taupe
+  > mirabella-by-gio: 4 images, 24 products
+    + GIO.Mirabella.Anthracite.jpg -> Anthracite
+    ? GIO.Mirabella.Grey.jpg — no match found
+    + GIO.Mirabella.Ivory.jpg -> Ivory
+    + GIO.Mirabella.White.jpg -> White
+  > mix-by-gio: 5 images, 20 products
+    + GIO.Mix.Beige.jpg -> Beige
+    + GIO.Mix.Black.jpg -> Black
+    + GIO.Mix.Greige.jpg -> Greige
+    + GIO.Mix.Grey.jpg -> Grey
+    + GIO.Mix.White.jpg -> White
+  - moda-by-gio — no products in Sanity
+  > modern-by-gio: 4 images, 4 products
+    + GIO_MODERN_BIRCH.jpg -> Birch
+    + GIO_MODERN_CHARCOAL.jpg -> Charcoal
+    + GIO_MODERN_COFFEE.jpg -> Coffee
+    + GIO_MODERN_GREY.jpg -> Grey
+  > mosa-by-gio: 4 images, 20 products
+    + GIO.Mosa.Beige.jpg -> Beige
+    + GIO.Mosa.Bianco.jpg -> Bianco
+    + GIO.Mosa.Grey.jpg -> Grey
+    + GIO.Mosa.Taupe.jpg -> Taupe
+  > mural-by-gio: 14 images, 15 products
+    + GIO_MURAL VERDE.jpg -> Grigio
+    + GIO_MURAL_AQUA ONYX.jpg -> Aqua onyx
+    + GIO_MURAL_AZUL.jpg -> Azul
+    + GIO_MURAL_CREMA.jpg -> Crema
+    + GIO_MURAL_Croc.jpg -> Croc
+    + GIO_MURAL_DARK.jpg -> Dark
+    + GIO_MURAL_DOLEMITE.VEIN.jpg -> Grigio
+    + GIO_MURAL_GRIGIO.jpg -> Grigio
+    + GIO_MURAL_GreyCannela.jpg -> Grey cannela
+    + GIO_MURAL_MARQUINA.GRAND.jpg -> Grigio
+    + GIO_MURAL_PYTHON Decor.jpg -> Grigio
+    + GIO_MURAL_RAINFOREST.jpg -> Grigio
+    + GIO_MURAL_SNAKE.jpg -> Grigio
+    + GIO_MURAL_VEINA.jpg -> Grigio
+  > naxos-by-gio: 6 images, 6 products
+    + GIO_Naxos_Anthracite.jpg -> Anthracite
+    + GIO_Naxos_Bianco.jpg -> Bianco
+    + GIO_Naxos_DarkBlue.jpg -> Dark blue
+    + GIO_Naxos_Green.jpg -> Green
+    + GIO_Naxos_Grey.jpg -> Grey
+    + GIO_Naxos_light blue.jpg -> Light blue
+  > neo-brick: 12 images, 12 products
+    + NEO_BRICK_ANTIQUE VIGNETTE.jpg -> Antique
+    + NEO_BRICK_ANTIQUE.jpg -> Antique
+    + NEO_BRICK_BIANCO VIGNETTE.jpg -> Bianco
+    + NEO_BRICK_BIANCO.jpg -> Bianco
+    + NEO_BRICK_CREMA VIGNETTE.jpg -> Crema
+    + NEO_BRICK_CREMA.jpg -> Crema
+    + NEO_BRICK_DARK GREY VIGNETTE.jpg -> Dark grey
+    + NEO_BRICK_DARK GREY.jpg -> Dark grey
+    + NEO_BRICK_INDIGO VIGNETTE.jpg -> Indigo
+    + NEO_BRICK_INDIGO.jpg -> Indigo
+    + NEO_BRICK_STONE GREY VIGNETTE.jpg -> Stone grey
+    + NEO_BRICK_STONE GREY.jpg -> Stone grey
+  > neolith-by-gio: 3 images, 12 products
+    + NEOLITH_ARGENT.jpg -> Argent
+    + NEOLITH_Bianco.jpg -> Bianco
+    + NEOLITH_DARK.jpg -> Dark
+  > nuance-by-gio: 12 images, 12 products
+    + GIO.Nuance.Black.Glossy.jpg -> Black
+    + GIO.Nuance.Black.jpg -> Black
+    + GIO.Nuance.Blue.Glossy.jpg -> Blue
+    + GIO.Nuance.Blue.jpg -> Blue
+    + GIO.Nuance.Grey.Glossy.jpg -> Grey
+    + GIO.Nuance.Grey.jpg -> Grey
+    ? GIO.Nuance.Nuetral.Glossy.jpg — no match found
+    ? GIO.Nuance.Nuetral.jpg — no match found
+    + GIO.Nuance.Verde.Glossy.jpg -> Verde
+    + GIO.Nuance.Verde.jpg -> Verde
+    + GIO.Nuance.White.Glossy.jpg -> White
+    + GIO.Nuance.White.jpg -> White
+  > onyx-lux-by-gio: 3 images, 6 products
+    + GIO.Onyx.Lux.Dark.jpg -> Dark
+    + GIO.Onyx.Lux.Green.jpg -> Green
+    + GIO.Onyx.Lux.Grey.jpg -> Grey
+  > padana-by-gio: 4 images, 8 products
+    + Padana.Black.jpg -> Black
+    + Padana.Grey.jpg -> Grey
+    + Padana.Pearl.jpg -> Pearl
+    + Padana.White.jpg -> White
+  > pavers-by-gio: 31 images, 17 products
+    + GIO.Pavers.Concrete.Simp.Beige.jpg -> Beige
+    + GIO.Pavers.Concrete.Simp.Graphite.jpg -> Simple graphite
+    + GIO.Pavers.Concrete.Simp.Grey.jpg -> Grey
+    + GIO.Pavers.Concrete.Simp.White.jpg -> White
+    + GIO.Pavers.Concrete.Text.Beige.jpg -> Beige
+    + GIO.Pavers.Concrete.Text.Grey.jpg -> Grey
+    + GIO.Pavers.Concrete.Text.Taupe.jpg -> Texture taupe
+    ? GIO.Pavers.CrossTravertine.Avorio.jpg — no match found
+    ? GIO.Pavers.CrossTravertine.Crema.jpg — no match found
+    + GIO.Pavers.CrossTravertine.Silver.jpg -> Silver
+    ? GIO.Pavers.CrossTravertine.Walnut.jpg — no match found
+    + GIO.Pavers.Limestone.Beige.jpg -> Beige
+    ? GIO.Pavers.Limestone.Ivory.jpg — no match found
+    + GIO.Pavers.Limestone.White.jpg -> White
+    + GIO.Pavers.Quartzite.Grey.jpg -> Grey
+    + GIO.Pavers.Quartzite.Sand.jpg -> Sand
+    + GIO.Pavers.Quartzite.White.jpg -> White
+    + GIO.Pavers.Stone.Ardesia.Beige.jpg -> Beige
+    ? GIO.Pavers.Stone.Ardesia.Bianco.jpg — no match found
+    + GIO.Pavers.Stone.Ardesia.DarkGrey.jpg -> Grey
+    + GIO.Pavers.Stone.Ardesia.Grey.jpg -> Grey
+    ? GIO.Pavers.Stone.PA.Blue.Cleft.jpg — no match found
+    ? GIO.Pavers.Stone.PA.Blue.Flamed.jpg — no match found
+    + GIO.Pavers.VeinTravertine.Beige.jpg -> Beige
+    + GIO.Pavers.VeinTravertine.Silver.jpg -> Silver
+    + GIO.Pavers.Wood.BeigeOak.jpg -> Beige
+    ? GIO.Pavers.Wood.DerivaAsh.jpg — no match found
+    ? GIO.Pavers.Wood.MediumPine.jpg — no match found
+    ? GIO.Pavers.Wood.Umber.Amber.jpg — no match found
+    ? GIO.Pavers.Wood.Umber.Bianco.jpg — no match found
+    + GIO.Pavers.Wood.Umber.grey.jpg -> Grey
+  > pebbles-by-gio: 27 images, 12 products
+    + PEBBLES_AVORIO Flat & Honed.jpg -> Avorio
+    + PEBBLES_AVORIO Stacked.jpg -> Avorio
+    + PEBBLES_AVORIO Standard.jpg -> Avorio
+    + PEBBLES_Anthracite Flat & Polished.jpg -> Anthracite
+    + PEBBLES_Anthracite Standard.jpg -> Anthracite
+    + PEBBLES_GRANITE_Flat.jpg -> Granite
+    + PEBBLES_GRANITE_Stacked.jpg -> Granite
+    + PEBBLES_GREY HONED.jpg -> Grey
+    ? PEBBLES_Giallo Flat & Polished.jpg — no match found
+    + PEBBLES_Giallo Standard.jpg -> Tan
+    + PEBBLES_Granite.jpg -> Granite
+    + PEBBLES_PEPPER_Stacked.jpg -> Pepper
+    + PEBBLES_Pepper Standard.jpg -> Pepper
+    + PEBBLES_Pepper_Flat_Pebble.jpg -> Pepper
+    + PEBBLES_Silver Beige Flat & Polished.jpg -> Silver beige
+    + PEBBLES_Silver Beige Standard.jpg -> Silver beige
+    + PEBBLES_TIGER EYE POLISHED.jpg -> Tiger eye
+    + PEBBLES_Tan Flat & Honed.jpg -> Tan
+    + PEBBLES_Tan Stacked.jpg -> Tan
+    + PEBBLES_Tan Standard.jpg -> Tan
+    + PEBBLES_Terra Flat & Polished.jpg -> Terra
+    + PEBBLES_Terra Standard.jpg -> Tan
+    + PEBBLES_Tortora Blend Stacked.jpg -> Tortora
+    + PEBBLES_Tortora Flat & Honed.jpg -> Tortora
+    + PEBBLES_Tortora Standard.jpg -> Tan
+    + PEBBLES_VENETIAN Flat.jpg -> Venetian
+    + PEBBLES_WHITE_Marble.jpg -> White marble
+  > petra-by-gio: 4 images, 28 products
+    + Petra.Anthracite.jpg -> Anthracite
+    + Petra.Ash.Grey.jpg -> Ash grey
+    + Petra.Beige.jpg -> Beige
+    + Petra.Bianco.jpg -> Bianco
+  > petrified-by-gio: 4 images, 8 products
+    + PETRIFIED _COBALT.jpg -> Cobalt
+    + PETRIFIED _TAUPE.jpg -> Taupe
+    + PETRIFIED_BIANCO.jpg -> Bianco
+    + PETRIFIED_NOCE.jpg -> Noce
+  > picket-by-gio: 6 images, 5 products
+    + PICKET_BIANCOBRIGHT.jpg -> Bianco bright
+    + PICKET_BIANCO_MATTE.jpg -> Bianco matte
+    + PICKET_DARKGREY.jpg -> Light grey
+    ? PICKET_GREIGE.jpg — no match found
+    + PICKET_LIGHT_GREY.jpg -> Light grey
+    + PICKET_SAGE.jpg -> Sage
+  - pietra-marmi-by-gio — no products in Sanity
+  > plush-by-gio: 5 images, 15 products
+    + PLUSH_ALMOND.jpg -> Almond
+    + PLUSH_BIANCO.jpg -> Bianco
+    + PLUSH_DARKGREY.jpg -> Dark grey
+    + PLUSH_LIGHTGREY.jpg -> Light grey
+    + PLUSH_TAUPE.jpg -> Taupe
+  > progetto-by-gio: 4 images, 12 products
+    + PROGETTO_BISCUIT.jpg -> Biscuit
+    + PROGETTO_DOVEGREY.jpg -> Dove grey
+    + PROGETTO_SAND_BIEGE.jpg -> Sand beige
+    + PROGETTO_SILVERGREY.jpg -> Silver grey
+  > quartzite-gio: 3 images, 15 products
+    + GIO.Quartzite.Beige.jpg -> Beige
+    + GIO.Quartzite.Grey.jpg -> Grey
+    + GIO.Quartzite.White.jpg -> White
+  > quarzo-by-gio: 1 images, 10 products
+    + GIO.Quarzo.2.jpg -> Quarzo
+  - rapolano-by-gio — no products in Sanity
+  > reale-by-gio: 4 images, 16 products
+    + GIO_REALE_BEIGE.jpg -> Beige
+    + GIO_REALE_BIANCOjpg.jpg -> Bianco
+    + GIO_REALE_GREY.jpg -> Grey
+    + GIO_REALE_NOCE.jpg -> Noce
+  > reflections-by-gio: 6 images, 6 products
+    + GIO.Reflections.Bronze.3x12.jpg -> Bronze
+    + GIO.Reflections.Bronze.3x9.jpg -> Bronze
+    + GIO.Reflections.Bronze.Hex.jpg -> Bronze
+    + GIO.Reflections.Silver.3x12.jpg -> Silver
+    + GIO.Reflections.Silver.3x9.jpg -> Silver
+    + GIO.Reflections.Silver.Hex.jpg -> Silver
+  > rena-by-gio: 8 images, 8 products
+    + GIO.Rena.Cinnamon.1.jpg -> Cinnamon
+    + GIO.Rena.Cinnamon.2.jpg -> Cinnamon
+    + GIO.Rena.Green.1.jpg -> Green
+    + GIO.Rena.Green.2.jpg -> Green
+    + GIO.Rena.Tan.1.jpg -> Tan
+    + GIO.Rena.Tan.2.jpg -> Tan
+    + GIO.Rena.White.1.jpg -> White
+    + GIO.Rena.White.2.jpg -> White
+  - renoir-by-gio — no products in Sanity
+  > ridges-by-gio: 3 images, 3 products
+    + GIO.Ridges.Beige.jpg -> Beige
+    + GIO.Ridges.Bianco.jpg -> Bianco
+    + GIO.Ridges.Grey.jpg -> Light grey
+  > rigato-by-gio: 18 images, 18 products
+    + GIO.Rigato.Bianca.Max.Bowtie.jpg -> Bianca_max bowtie
+    + GIO.Rigato.Bianca.Max.Linear.jpg -> Bianca_max linear
+    + GIO.Rigato.MARMI_CALCATTA.jpg -> Calcatta
+    + GIO.Rigato.MARMI_CALCATTAVELVET.jpg -> Calcatta
+    + GIO.Rigato.MARMI_STATUARY.jpg -> Statuary
+    + GIO.Rigato.MARMI_STATUARYVELVET.jpg -> Statuary
+    + GIO.Rigato.Origami.Bianco.jpg -> Bianco
+    + GIO.Rigato.Radius.Azure.Decor.jpg -> Azure
+    + GIO.Rigato.Radius.Azure.jpg -> Azure
+    + GIO.Rigato.Radius.Bianco.Decor.jpg -> Bianco
+    + GIO.Rigato.Radius.Bianco.jpg -> Bianco
+    + GIO.Rigato.Ridges.Beige.jpg -> Beige
+    + GIO.Rigato.Ridges.Bianco.jpg -> Bianco
+    + GIO.Rigato.Ridges.Lt.Grey.jpg -> Grey
+    + GIO.Rigato.TORTOISE_BIANCO.jpg -> Bianco
+    + GIO.Rigato.TORTOISE_BIANCO_DECOR.jpg -> Bianco
+    + GIO.Rigato.TORTOISE_GREY.jpg -> Grey
+    + GIO.Rigato.TORTOISE_GREY_DECOR.jpg -> Grey
+  > rosata-by-gio: 1 images, 6 products
+    ? GIO_Rosata.jpg — no match found
+  > royale-by-gio: 4 images, 28 products
+    + GIO.Royale.Beige.jpg -> Beige
+    + GIO.Royale.Black.jpg -> Black
+    + GIO.Royale.Charcoal.jpg -> Charcoal
+    + GIO.Royale.White.jpg -> White
+  > sabbiosa-by-gio: 9 images, 20 products
+    ? GIO.Acqua.Black.jpg — no match found
+    ? GIO.Acqua.Coastal.Taupe.jpg — no match found
+    ? GIO.Acqua.Green.jpg — no match found
+    + GIO.Acqua.Grey.jpg -> Grey
+    ? GIO.Acqua.Navy.Midnight.jpg — no match found
+    ? GIO.Acqua.Pale.Blue.jpg — no match found
+    ? GIO.Acqua.Sand.jpg — no match found
+    ? GIO.Acqua.Teal.jpg — no match found
+    + GIO.Acqua.White.jpg -> White
+  > salento-by-gio: 2 images, 3 products
+    + GIO_Salento.Versaille.Pattern.jpg -> Salento
+    + GIO_Salento.jpg -> Salento
+  > select-by-gio: 3 images, 3 products
+    + GIO.Select.Barrel.Beige.jpg -> Barrel beige
+    + GIO.Select.Light.Golden.jpg -> Light golden
+    + GIO.Select.Walnut.Brown.jpg -> Walnut brown
+  > shades-by-gio: 6 images, 6 products
+    + GIO.Shades.Bianco.jpg -> Bianco
+    + GIO.Shades.Blue.jpg -> Blu
+    + GIO.Shades.DarkVerde.jpg -> Dark verde
+    + GIO.Shades.Grigio.jpg -> Grigio
+    + GIO.Shades.LightVerde.jpg -> Light verde
+    + GIO.Shades.Nero.jpg -> Nero
+  > shell-by-gio: 8 images, 20 products
+    + GIO.Shell.DarkGrey.Decoria.jpg -> Dark grey
+    + GIO.Shell.DarkGrey.jpg -> Dark grey
+    + GIO.Shell.Grey.Decor.jpg -> Grey
+    + GIO.Shell.Grey.jpg -> Grey
+    + GIO.Shell.Sand.Decor.jpg -> Sand
+    + GIO.Shell.Sand.jpg -> Sand
+    + GIO.Shell.White.Decor.jpg -> White
+    + GIO.Shell.White.jpg -> White
+  > simplestone-by-gio: 4 images, 24 products
+    + GIO.SimpleStone.White.jpg -> White
+    + GIO.Simplestone.Beige.jpg -> Beige
+    + GIO.Simplestone.Graphite.jpg -> Graphite
+    + GIO.Simplestone.Gray.jpg -> Gray
+  > slab-48-by-gio: 26 images, 18 products
+    ? GIO_SLAB48_Arabescato.jpg — no match found
+    + GIO_SLAB48_Bernini.jpg -> Bernini
+    + GIO_SLAB48_Bianco.Quartz.jpg -> Bianco quartz
+    ? GIO_SLAB48_Calacatta.Borhgini.jpg — no match found
+    ? GIO_SLAB48_Calacatta.Emerald.jpg — no match found
+    ? GIO_SLAB48_Calacatta.Gold.jpg — no match found
+    ? GIO_SLAB48_Calacatta.Oro.Chain.jpg — no match found
+    ? GIO_SLAB48_Calacatta.Oro.jpg — no match found
+    ? GIO_SLAB48_Calcatta.Borhgini.Bookmatch.jpg — no match found
+    ? GIO_SLAB48_Concreto.Dark.jpg — no match found
+    ? GIO_SLAB48_Concreto.ExtraLight.jpg — no match found
+    ? GIO_SLAB48_Concreto.Light.jpg — no match found
+    ? GIO_SLAB48_Concreto.Medium.jpg — no match found
+    ? GIO_SLAB48_Grey.Marble.jpg — no match found
+    ? GIO_SLAB48_Invisible.Light.jpg — no match found
+    + GIO_SLAB48_Marquina.Nero.jpg -> Marquina nero
+    + GIO_SLAB48_Onyx.Black.jpg -> Onyx black
+    + GIO_SLAB48_Onyx.Blue.jpg -> Onyx blue
+    + GIO_SLAB48_Onyx.Emerald.jpg -> Onyx black
+    + GIO_SLAB48_Onyx.Ivory.jpg -> Onyx ivory
+    + GIO_SLAB48_Paradiso.Bianco.jpg -> Paradiso bianco
+    ? GIO_SLAB48_Slate.Grey.jpg — no match found
+    ? GIO_SLAB48_Slate.White.jpg — no match found
+    ? GIO_SLAB48_Statuary.Michaelangelo.jpg — no match found
+    + GIO_SLAB48_Venato.Bianco.Bookmatch.jpg -> Bianco quartz
+    + GIO_SLAB48_Venato.Bianco.jpg -> Bianco quartz
+  > slate-ardosia-by-gio: 4 images, 16 products
+    + GIO_Slate.Ardosia_Charcoal.jpg -> Charcoal
+    + GIO_Slate.Ardosia_Grey.jpg -> Grey
+    + GIO_Slate.Ardosia_Ivory.jpg -> Ivory
+    + GIO_Slate.Ardosia_Taupe.jpg -> Taupe
+  > slate_montauk: 3 images, 3 products
+    + GIO.SlateMontauk.Charcoal.jpg -> Charcoal
+    + GIO.SlateMontauk.Ivory.jpg -> Ivory
+    + GIO.SlateMontauk.LightGrey.jpg -> Light grey
+  > soho-by-gio: 5 images, 30 products
+    + SOHO_BEIGE.jpg -> Beige
+    + SOHO_BIANCO.jpg -> Bianco
+    + SOHO_DARKGREY.jpg -> Dark grey
+    + SOHO_HAZELNUT.jpg -> Hazelnut
+    + SOHO_LIGHTGREY.jpg -> Light grey
+  > statuarietto-bianco: 1 images, 10 products
+    + Statuarietto.Bianco.jpg -> Statuarietto bianco
+  > stoneline-by-gio: 8 images, 20 products
+    + GIO.Stoneline.DarkGrey.Decor.jpg -> Dark grey
+    + GIO.Stoneline.DarkGrey.jpg -> Dark grey
+    + GIO.Stoneline.Grey.Decor.jpg -> Grey
+    + GIO.Stoneline.Grey.jpg -> Grey
+    + GIO.Stoneline.SandBeige.Decor.jpg -> Sand beige
+    + GIO.Stoneline.SandBeige.jpg -> Sand beige
+    + GIO.Stoneline.White.Decor.JPG -> White
+    + GIO.Stoneline.White.jpg -> White
+  - subway-by-gio — no products in Sanity
+  > taj-by-gio: 2 images, 9 products
+    + GIO.Taj.1.jpg -> Taj
+    + GIO.Taj.2.jpg -> Taj
+  > terracotta-by-gio: 6 images, 18 products
+    + GIO.Terracotta.Anthracite.jpg -> Anthracite
+    + GIO.Terracotta.AshGrey.jpg -> Ash grey
+    + GIO.Terracotta.Avorio.jpg -> Avorio
+    + GIO.Terracotta.Bianco.jpg -> Bianco
+    + GIO.Terracotta.Naturale.jpg -> Naturale
+    + GIO.Terracotta.Rosato.jpg -> Rosato
+  > terrazzo-by-gio: 10 images, 7 products
+    + TERRAZZO BIANCO.jpg -> Bianco
+    ? TERRAZZO BLACK.jpg — no match found
+    + TERRAZZO DARKGREY.jpg -> Dark grey
+    ? TERRAZZO DECOMIX.jpg — no match found
+    + TERRAZZO GRIGIO.jpg -> Grigio
+    + TERRAZZO LIGHTGREY.jpg -> Light grey
+    + TERRAZZO STONEGREY.jpg -> Stone grey
+    + TERRAZZO WARMGREY.jpg -> Dark grey
+    + TERRAZZO WHITE.jpg -> White
+    + TERRAZZO_ANTHRACITE.jpg -> Anthracite
+  > tigerwood-by-gio: 3 images, 3 products
+    + TIGERWOOD_NATURAL.jpg -> Natural
+    + TIGERWOOD_PROVINCIAL.jpg -> Provincial
+    + TIGERWOOD_SADDLE.jpg -> Saddle
+  - toscana-by-gio — no products in Sanity
+  > trevizo-by-gio: 9 images, 9 products
+    + GIO.Trevizo.Black.jpg -> Black
+    + GIO.Trevizo.DarkBlue.jpg -> Dark blue
+    + GIO.Trevizo.DarkGreen.jpg -> Dark green
+    + GIO.Trevizo.DarkTaupe.jpg -> Dark taupe
+    + GIO.Trevizo.Ivory.jpg -> Ivory
+    + GIO.Trevizo.LightBLue.jpg -> Light blue
+    + GIO.Trevizo.LightGreen.jpg -> Light green
+    + GIO.Trevizo.LightGrey.jpg -> Light grey
+    + GIO.Trevizo.White.jpg -> White
+  > umber-by-gio: 4 images, 11 products
+    + GIO_UMBER_AMBER.jpg -> Amber
+    + GIO_UMBER_BIANCO.jpg -> Bianco
+    + GIO_UMBER_GREY.jpg -> Grey
+    + GIO_UMBER_NOCE.jpg -> Noce
+  > varenna-by-gio: 29 images, 18 products
+    ? Chroma.Amoretto.Fluted&Glossy.jpg — no match found
+    ? Chroma.Amoretto.Glossy.jpg — no match found
+    ? Chroma.Amoretto.Matte.jpg — no match found
+    ? Chroma.Anthracite,Fluted&Glossy.jpg — no match found
+    ? Chroma.Anthracite.Glossy.jpg — no match found
+    ? Chroma.Anthracite.Matte.jpg — no match found
+    ? Chroma.Bianco.Fluted&Glossy.jpg — no match found
+    ? Chroma.Bianco.Glossy.jpg — no match found
+    ? Chroma.Bianco.Matte..jpg — no match found
+    ? Chroma.Grey.Fluted&Glossy.jpg — no match found
+    ? Chroma.Grey.Glossy.jpg — no match found
+    ? Chroma.Grey.Matte.jpg — no match found
+    ? Chroma.Lavender.Fluted&Glossy.jpg — no match found
+    ? Chroma.Lavender.Glossy.jpg — no match found
+    ? Chroma.Lavender.Matte.jpg — no match found
+    ? Chroma.Rose.Fluted&Glossy.jpg — no match found
+    ? Chroma.Rose.Glossy.jpg — no match found
+    ? Chroma.Rose.Matte.jpg — no match found
+    ? Chroma.Taupe.Fluted&Glossy.jpg — no match found
+    ? Chroma.Taupe.Glossy.jpg — no match found
+    ? Chroma.Taupe.Matte.jpg — no match found
+    ? Chroma.Turquoise.Fluted&Glossy.jpg — no match found
+    ? Chroma.Turquoise.Glossy.jpg — no match found
+    ? Chroma.Turquoise.Matte.jpg — no match found
+    ? Chroma.Yellow.Fluted&Glossy.jpg — no match found
+    ? Chroma.Yellow.Glossy.jpg — no match found
+    ? Chroma.Yellow.Matte.jpg — no match found
+    + GIO.Varenna.LunaBianca.jpg -> Luna bianca
+    + GIO.Varenna.Venato.Notte.jpg -> Venato notte
+  > veneto-by-gio: 3 images, 21 products
+    + VENETO_BIANCO.jpg -> Bianco
+    + VENETO_L_GREY.jpg -> Light grey
+    + VENETO_TAUPE.jpg -> Taupe
+  > verde_alpi: 3 images, 10 products
+    ? GIO.Verde_Alpi.2.jpg — no match found
+    ? GIO.Verde_Alpi.3.jpg — no match found
+    ? Unknown.jpeg — no match found
+  > versailles-by-gio: 8 images, 9 products
+    + VERSAILLES_BEIGE.jpg -> Beige
+    + VERSAILLES_BEIGE8X48.jpg -> Beige
+    + VERSAILLES_COTTO.jpg -> Cotto
+    + VERSAILLES_GREY.jpg -> Grey
+    + VERSAILLES_GREY8X48.jpg -> Grey
+    + VersaillesBeigeListello.jpg -> Beige
+    + VersaillesCottoListello.jpg -> Cotto
+    + VersaillesGreyListello.jpg -> Grey
+  > vintage-by-gio-2: 9 images, 9 products
+    + VINTAGE _COLOR_MIX.jpg -> Color mix set
+    + VINTAGE _FLORENTINE.jpg -> Florentine
+    + VINTAGE _MACHIAVELLI.jpg -> Machiavelli
+    + VINTAGE _MEDICI.jpg -> Medici
+    + VINTAGE _VECCHIO.jpg -> Vecchio
+    + Vintage_Petals_Dark_Grey_Petals.jpg -> Dark grey petals
+    + Vintage_Petals_Greige.jpg -> Greige petals
+    + Vintage_Satrs_Dark_Grey.jpg -> Dark grey petals
+    + Vintage_Stars_Griege.jpg -> Greige stars
+  > vintage-by-gio-florentine: 9 images, 9 products
+    + VINTAGE _COLOR_MIX.jpg -> Color mix set
+    + VINTAGE _FLORENTINE.jpg -> Florentine
+    + VINTAGE _MACHIAVELLI.jpg -> Machiavelli
+    + VINTAGE _MEDICI.jpg -> Medici
+    + VINTAGE _VECCHIO.jpg -> Vecchio
+    + Vintage_Petals_Dark_Grey_Petals.jpg -> Dark grey petals
+    + Vintage_Petals_Greige.jpg -> Greige petals
+    + Vintage_Satrs_Dark_Grey.jpg -> Dark grey petals
+    + Vintage_Stars_Griege.jpg -> Greige stars
+  > vitro-by-gio: 9 images, 45 products
+    + VITRO_AQUA.jpg -> Aqua
+    + VITRO_BEIGE.jpg -> Beige
+    + VITRO_BIANCO.jpg -> Bianco
+    + VITRO_BLACK.jpg -> Black
+    + VITRO_CHARCOAL.jpg -> Charcoal
+    + VITRO_DOVE_GREY.jpg -> Dove grey
+    + VITRO_GREEN.jpg -> Green
+    + VITRO_TAUPE.jpg -> Taupe
+    + VITRO_TEAL.jpg -> Teal
+  - workshop-by-gio — no products in Sanity
+  > zellige-by-gio: 9 images, 13 products
+    + GIO_Zellige_Riad.Aqua.jpg -> Riad aqua
+    + GIO_Zellige_Riad.Green.jpg -> Riad green
+    + GIO_Zellige_Riad.Grey.jpg -> Riad grey
+    + GIO_Zellige_Riad.Red.jpg -> Riad aqua
+    + GIO_Zellige_Riad.Sand.jpg -> Riad sand
+    + GIO_Zellige_Riad.White.jpg -> Riad white
+    + GIO_Zellige_Suk.Black.jpg -> Suk black
+    + GIO_Zellige_Suk.Grey.jpg -> Suk grey
+    + GIO_Zellige_Suk.Pearl.jpg -> Suk pearl
+
+  Unmatched images log: /Users/jakeholden/Library/CloudStorage/GoogleDrive-jake@epoch.works/My Drive/Drive Clients/Gio Tile/giotile/data/unmatched-product-images.json
+
+────────────────────────────────────────
+Phase 3 complete!
+  Matched:    734
+  Uploaded:   733
+  Skipped:    0 (already had images)
+  Unmatched:  232
+
+Done!
