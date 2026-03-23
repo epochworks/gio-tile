@@ -14,11 +14,20 @@ const bdoGrotesk = localFont({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://giotile.com'),
   title: {
     default: 'GIO Architectural Tile & Stone',
     template: '%s | GIO Tile',
   },
   description: 'Tile Collections Curated Expressly for Commercial Specifications',
+  openGraph: {
+    siteName: 'GIO Architectural Tile & Stone',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 }
 
 export default function RootLayout({
