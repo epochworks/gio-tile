@@ -38,7 +38,13 @@ const COLLECTION_FIELDS = `
   title,
   "slug": slug.current,
   technicalSummary,
-  heroImages,
+  heroImages[]{
+    _key,
+    _type,
+    asset,
+    hotspot,
+    crop
+  },
   featured,
   "colors": array::unique(products[]->colorFamily->hex)[0...5]
 `
@@ -80,20 +86,27 @@ async function getHomePageData() {
   }`)
 }
 
-/* Pre-build image URLs for hero-size (portrait aspect to match hero containers).
-   Portrait crops let Sanity's focal point do the vertical work server-side. */
+/* Pre-build image URLs for hero tiles.
+   IMPORTANT: the aspect ratio requested from Sanity must match the actual
+   rendered container aspect ratio — otherwise CSS object-cover does a second
+   (centered) crop on top of Sanity's focal-point crop and the focal point is
+   lost. Containers measured on desktop @ 1440w:
+     - Left  (small): ~524w × ~360h  → ~1.45 aspect (landscape)
+     - Right (large): ~880w × ~728h  → ~1.21 aspect (landscape)
+*/
 function prepareHero(c: any, size: 'small' | 'large') {
   if (!c) return null
+  const dims =
+    size === 'large'
+      ? { w: 1760, h: 1456 } // 2x of ~880×728
+      : { w: 1048, h: 720 } //  2x of ~524×360
   return {
     _id: c._id,
     title: c.title,
     slug: c.slug,
     featured: c.featured,
     imageUrl: c.heroImages?.[0]
-      ? urlFor(c.heroImages[0])
-          .width(size === 'large' ? 1200 : 900)
-          .height(size === 'large' ? 1500 : 1100)
-          .url()
+      ? urlFor(c.heroImages[0]).width(dims.w).height(dims.h).url()
       : null,
   }
 }
