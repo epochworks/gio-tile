@@ -35,7 +35,7 @@ export default function HeroSection({ left, right }: HeroSectionProps) {
                   alt={`${left.title} collection — a featured tile collection from GIO`}
                   fill
                   sizes="(max-width: 1024px) 100vw, 524px"
-                  className="object-cover object-right-bottom transition-transform duration-500 group-hover:scale-[1.03]"
+                  className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   priority
                 />
               )}
@@ -78,7 +78,7 @@ export default function HeroSection({ left, right }: HeroSectionProps) {
                 alt={`${right.title} collection — featured tile collection from GIO`}
                 fill
                 sizes="(max-width: 1024px) 100vw, 880px"
-                className="object-cover object-right-bottom transition-transform duration-500 group-hover:scale-[1.03]"
+                className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 priority
               />
             )}

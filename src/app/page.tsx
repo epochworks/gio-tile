@@ -80,7 +80,8 @@ async function getHomePageData() {
   }`)
 }
 
-/* Pre-build image URLs for hero-size (wide, high-res) */
+/* Pre-build image URLs for hero-size (portrait aspect to match hero containers).
+   Portrait crops let Sanity's focal point do the vertical work server-side. */
 function prepareHero(c: any, size: 'small' | 'large') {
   if (!c) return null
   return {
@@ -90,8 +91,8 @@ function prepareHero(c: any, size: 'small' | 'large') {
     featured: c.featured,
     imageUrl: c.heroImages?.[0]
       ? urlFor(c.heroImages[0])
-          .width(size === 'large' ? 1400 : 900)
-          .height(size === 'large' ? 1100 : 900)
+          .width(size === 'large' ? 1200 : 900)
+          .height(size === 'large' ? 1500 : 1100)
           .url()
       : null,
   }
