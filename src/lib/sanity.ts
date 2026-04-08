@@ -246,6 +246,33 @@ export const queries = {
   allLooks: `*[_type == "look"] | order(title asc) { _id, title, slug, image }`,
   allSizeTypes: `*[_type == "sizeType"] | order(title asc) { _id, title }`,
 
+  // Get all products with taxonomy from parent collection for /tile-stone page
+  allProductsWithFacets: `*[_type == "product"] | order(collection->title asc, title asc) {
+    _id,
+    title,
+    slug,
+    colorName,
+    colorFamily->{_id, title, slug, hex},
+    images,
+    shadeVariation,
+    finishes[] {
+      type->{_id, title, slug},
+      skus[] {
+        code,
+        size,
+        sizeType->{_id, title, slug}
+      }
+    },
+    "collectionTitle": collection->title,
+    "collectionSlug": collection->slug.current,
+    "collectionFeatured": collection->featured,
+    "material": collection->material,
+    "surfaces": collection->surfaces,
+    "look": collection->look->{_id, title, slug},
+    "style": collection->style->{_id, title, slug},
+    "technicalSummary": collection->technicalSummary
+  }`,
+
   // Featured/trending collections for homepage
   featuredCollections: `*[_type == "collection" && featured == true] | order(title asc)[0...4] {
     _id,
@@ -385,6 +412,10 @@ export const queries = {
 // Fetch helpers
 export async function getCollections() {
   return client.fetch(queries.allCollections)
+}
+
+export async function getProductsWithFacets() {
+  return client.fetch(queries.allProductsWithFacets)
 }
 
 export async function getCollectionBySlug(slug: string) {
