@@ -773,5 +773,200 @@
     "source": "/company-news/gios-top-10-in-25",
     "destination": "/blog/gios-top-10-in-25",
     "permanent": true
+  },
+  {
+    "source": "/gio-floor-tile-collections",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-glass-tile-collections",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-grip-finish-collections",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-hexagon-tiles",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-mosaic-tile-options",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-natural-stone-products",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-porcelain-pavers",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-subway-tile-collections",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-thin-porcelain",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-tile-collections",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-wall-tile-collections",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/gio-wood-look-tile-collections",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/porcelain-ceramic-products",
+    "destination": "/products",
+    "permanent": true
+  },
+  {
+    "source": "/tile-trends",
+    "destination": "/blog?category=design-trends",
+    "permanent": true
+  },
+  {
+    "source": "/color-trends",
+    "destination": "/blog?category=design-trends",
+    "permanent": true
+  },
+  {
+    "source": "/floor-tile",
+    "destination": "/blog?category=design-trends",
+    "permanent": true
+  },
+  {
+    "source": "/wall-tile",
+    "destination": "/blog?category=design-trends",
+    "permanent": true
+  },
+  {
+    "source": "/glass-tile",
+    "destination": "/blog?category=design-trends",
+    "permanent": true
+  },
+  {
+    "source": "/commercial-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/workplace-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/commercial-construction",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/hospitality-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/retail-store-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/healthcare-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/restaurant-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/dormitory-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/education-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/evidence-based-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/library-design",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/ad-industry-events",
+    "destination": "/blog?category=company-news",
+    "permanent": true
+  },
+  {
+    "source": "/tile-technology",
+    "destination": "/blog?category=tile-tips",
+    "permanent": true
+  },
+  {
+    "source": "/tile-installations",
+    "destination": "/blog?category=tile-tips",
+    "permanent": true
+  },
+  {
+    "source": "/interior-tile-installations",
+    "destination": "/blog?category=tile-tips",
+    "permanent": true
+  },
+  {
+    "source": "/tile-installation-patterns",
+    "destination": "/blog?category=tile-tips",
+    "permanent": true
+  },
+  {
+    "source": "/wellness-design",
+    "destination": "/blog?category=sustainable-design",
+    "permanent": true
+  },
+  {
+    "source": "/commercial-design-specifications",
+    "destination": "/blog?category=commercial-design",
+    "permanent": true
+  },
+  {
+    "source": "/exterior-tile-installations",
+    "destination": "/blog?category=outdoor-exterior",
+    "permanent": true
+  },
+  {
+    "source": "/sustainable-design-2",
+    "destination": "/blog?category=sustainable-design",
+    "permanent": true
+  },
+  {
+    "source": "/architecture-2",
+    "destination": "/blog?category=architecture",
+    "permanent": true
   }
 ]

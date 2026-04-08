@@ -1,0 +1,1658 @@
+[
+  {
+    "title": "3D Pietra Collection",
+    "slug": "3d-pietra-by-gio",
+    "look": "Marble",
+    "style": "Plank",
+    "material": [
+      "Natural Stone"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Absolute",
+    "slug": "absolute-by-gio",
+    "look": null,
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "existing",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Absolute",
+    "slug": "absolute-by-gio",
+    "look": null,
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "existing",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Acqua",
+    "slug": "acqua-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Agata",
+    "slug": "agata-by-gio",
+    "look": "Marble",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Alloy",
+    "slug": "alloy-by-gio",
+    "look": "Metal",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Antico",
+    "slug": "antico-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Arabescato Vagli",
+    "slug": "arabescato-vagli-by-gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Ardesia",
+    "slug": "ardesia-by-gio",
+    "look": "Slate",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Artisan",
+    "slug": "artisan-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Arté",
+    "slug": "arte-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Atelier",
+    "slug": "atelier-by-gio",
+    "look": "Wood",
+    "style": "Chevron",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "heuristic:description",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Bardiglio",
+    "slug": "bardiglio",
+    "look": "Marble",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Barista",
+    "slug": "barista-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Barnwood",
+    "slug": "barnwood-by-gio",
+    "look": "Wood",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Basaltina",
+    "slug": "basaltina-by-gio",
+    "look": "Stone",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Bergen",
+    "slug": "bergen-by-gio",
+    "look": "Wood",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Bianca",
+    "slug": "bianca-by-gio",
+    "look": "Marble",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Bianco Camouflage",
+    "slug": "bianco-camouflage-by-gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Bianco_Camouflage",
+    "slug": "bianco-camouflage-by_gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Blendstone",
+    "slug": "blendstone-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Bluestone Pierre",
+    "slug": "bluestone_pierre",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Bluestone_Pierre",
+    "slug": "bluestone_pierre",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Breccia Crema",
+    "slug": "breccia_crema_by_gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Brick",
+    "slug": "brick-by-gio",
+    "look": "Brick",
+    "style": "Rectangular",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Brick Cotto",
+    "slug": "brick_cotto",
+    "look": "Brick",
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Brick Dimension",
+    "slug": "brick-dimension-by-gio",
+    "look": "Brick",
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Brick Filo",
+    "slug": "brick-filo-by-gio",
+    "look": "Brick",
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Brick Mood",
+    "slug": "brick-mood-by-gio",
+    "look": "Brick",
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Brick Roma",
+    "slug": "brick_roma_by_gio",
+    "look": "Brick",
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Calacatta",
+    "slug": "calacatta-by-gio",
+    "look": "Marble",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Canela",
+    "slug": "canela-by-gio",
+    "look": "Marble",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Cardoso",
+    "slug": "cardoso",
+    "look": "Stone",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Carrara",
+    "slug": "carrara-by-gio",
+    "look": "Marble",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Cemento",
+    "slug": "cemento",
+    "look": "Cement",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Ceppo Prima",
+    "slug": "ceppo-prima_by_gio",
+    "look": "Cement",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Chalk",
+    "slug": "chalk-by-gio",
+    "look": "Cement",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Chroma",
+    "slug": "choma-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Claystone",
+    "slug": "claystone-by-gio",
+    "look": null,
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Coccio",
+    "slug": "coccio-by-gio",
+    "look": "Cement",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Colori",
+    "slug": "colori-by-gio",
+    "look": null,
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Colorplay",
+    "slug": "colorplay-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Contempo",
+    "slug": "contempo",
+    "look": "Marble",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Corton",
+    "slug": "corton-by-gio",
+    "look": "Stone",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Cotto Cemento",
+    "slug": "cotto-cemento-by-gio",
+    "look": "Cement",
+    "style": "Large Format",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Crema Avorio",
+    "slug": "cream-avorio-by-gio",
+    "look": "Marble",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Crystal Glass Collection",
+    "slug": "crystal-glass-collection-by-gio",
+    "look": null,
+    "style": null,
+    "material": [
+      "Glass"
+    ],
+    "lookSource": "",
+    "styleSource": "",
+    "materialSource": "wp-page"
+  },
+  {
+    "title": "Curve",
+    "slug": "curve-by-gio",
+    "look": null,
+    "style": "3D / Dimensional",
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Dorato",
+    "slug": "dorato-by-gio",
+    "look": "Travertine",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Emilia",
+    "slug": "emilia-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Essentials",
+    "slug": "essentials-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Fio Floor and",
+    "slug": "fio-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Fountaine",
+    "slug": "fountaine-by-gio",
+    "look": "Wood",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Frammento",
+    "slug": "frammento-by-gio",
+    "look": "Terrazzo",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Fusion",
+    "slug": "fusion-by-gio",
+    "look": "Cement",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Geometry Hex Collection",
+    "slug": "geometry-hex-by-gio",
+    "look": null,
+    "style": "Hexagonal",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Geometry Options",
+    "slug": "geometry-options-by-gio",
+    "look": null,
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Geometry Pennyround Collection",
+    "slug": "geometric-penny-round-collection",
+    "look": null,
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Geometry Picket Collection",
+    "slug": "geometry-picket-collection",
+    "look": null,
+    "style": "Picket",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Geometry Squared 2.0 Collection",
+    "slug": "geometry-squared-collection-by-gio",
+    "look": null,
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Glass & Stone Collection",
+    "slug": "glass-stone-collection-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Glass"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "wp-page"
+  },
+  {
+    "title": "Granello",
+    "slug": "granello-by-gio",
+    "look": "Stone",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Handmade",
+    "slug": "handmade-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Hex Frame",
+    "slug": "hex_frame",
+    "look": "Concrete",
+    "style": "Hexagonal",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Hex Leonis",
+    "slug": "hex-leonis-by-gio",
+    "look": null,
+    "style": "Hexagonal",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Hex_Prima",
+    "slug": "hex_prima",
+    "look": null,
+    "style": "Hexagonal",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Jura",
+    "slug": "jura-by-gio",
+    "look": "Stone",
+    "style": "Large Format",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Layers",
+    "slug": "layers-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Linea",
+    "slug": "linea-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Linen Floor &",
+    "slug": "linen-by-gio",
+    "look": "Fabric",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Luce",
+    "slug": "luce-by-gio",
+    "look": "Stone",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Macro",
+    "slug": "macro-by-gio",
+    "look": null,
+    "style": "Large Format",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Marmi_Lux",
+    "slug": "marmi-lux",
+    "look": "Marble",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Marmi_Revival",
+    "slug": "marmi_revival",
+    "look": "Marble",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Marmi_Satin",
+    "slug": "marmi-satin-by-gio",
+    "look": null,
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Maximus",
+    "slug": "maximus-by-gio",
+    "look": "Travertine",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Metallo",
+    "slug": "metallo-by-gio",
+    "look": "Metal",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Mia",
+    "slug": "mia-by-gio",
+    "look": null,
+    "style": "Geometric",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Midtown",
+    "slug": "midtown-by-gio",
+    "look": "Cement",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Mirabella",
+    "slug": "mirabella-by-gio",
+    "look": "Stone",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Mix",
+    "slug": "mix-by-gio",
+    "look": "Cement",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Modern",
+    "slug": "modern-by-gio",
+    "look": "Wood",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Mosa",
+    "slug": "mosa-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Mural",
+    "slug": "mural-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "NEO_Brick",
+    "slug": "neo-brick",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Naxos",
+    "slug": "naxos-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Neolith",
+    "slug": "neolith-by-gio",
+    "look": "Wood",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Nuance",
+    "slug": "nuance-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Onyx_Lux",
+    "slug": "onyx-lux-by-gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Padana",
+    "slug": "padana-by-gio",
+    "look": "Stone",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Pastel",
+    "slug": "pastel-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Pavers 20mm Porcelain Pavers",
+    "slug": "pavers-by-gio",
+    "look": null,
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Pebbles",
+    "slug": "pebbles-by-gio",
+    "look": "Stone",
+    "style": "Mosaic",
+    "material": [
+      "Natural Stone"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "wp-page",
+    "materialSource": "wp-page"
+  },
+  {
+    "title": "Petra",
+    "slug": "petra-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Petrified",
+    "slug": "petrified-by-gio",
+    "look": "Wood",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Picket",
+    "slug": "picket-by-gio",
+    "look": null,
+    "style": "Picket",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Pietra Marmi",
+    "slug": "pietra-marmi-by-gio",
+    "look": "Stone",
+    "style": "Mosaic",
+    "material": [
+      "Natural Stone"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "wp-page",
+    "materialSource": "wp-page"
+  },
+  {
+    "title": "Plush",
+    "slug": "plush-by-gio",
+    "look": "Fabric",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Progetto",
+    "slug": "progetto-by-gio",
+    "look": "Cement",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Quartzite",
+    "slug": "quartzite-gio",
+    "look": "Quartzite",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Quarzo",
+    "slug": "quarzo-by-gio",
+    "look": "Marble",
+    "style": "Large Format",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Rapolano",
+    "slug": "rapolano-by-gio",
+    "look": "Travertine",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Reale",
+    "slug": "reale-by-gio",
+    "look": "Marble",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Reflections Glass",
+    "slug": "reflections-by-gio",
+    "look": null,
+    "style": null,
+    "material": [
+      "Glass"
+    ],
+    "lookSource": "",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Rena",
+    "slug": "rena-by-gio",
+    "look": null,
+    "style": null,
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Renoir",
+    "slug": "renoir-by-gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Ridges",
+    "slug": "ridges-by-gio",
+    "look": null,
+    "style": "3D / Dimensional",
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Rigato",
+    "slug": "rigato-by-gio",
+    "look": "Marble",
+    "style": "3D / Dimensional",
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Rosata",
+    "slug": "rosata-by-gio",
+    "look": "Marble",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Royale",
+    "slug": "royale-by-gio",
+    "look": "Marble",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Sabbiosa",
+    "slug": "sabbiosa-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Natural Stone"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Salento",
+    "slug": "salento-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Select",
+    "slug": "select-by-gio",
+    "look": "Wood",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Shades",
+    "slug": "shades-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Glass"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Shell",
+    "slug": "shell-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Simplestone",
+    "slug": "simplestone-by-gio",
+    "look": "Stone",
+    "style": "Square",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Slab_48",
+    "slug": "slab-48-by-gio",
+    "look": null,
+    "style": "Large Format",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Slate_Ardosia",
+    "slug": "slate-ardosia-by-gio",
+    "look": "Slate",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Slate_Montauk",
+    "slug": "slate_montauk",
+    "look": "Slate",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Soho",
+    "slug": "soho-by-gio",
+    "look": "Stone",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Statuarietto Bianco",
+    "slug": "statuarietto-bianco",
+    "look": "Marble",
+    "style": "Large Format",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Stoneline",
+    "slug": "stoneline-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Subway — Wall Only",
+    "slug": "subway-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "heuristic:title",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Taj",
+    "slug": "taj-by-gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Terracotta",
+    "slug": "terracotta-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Terrazzo",
+    "slug": "terrazzo-by-gio",
+    "look": "Terrazzo",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Tigerwood",
+    "slug": "tigerwood-by-gio",
+    "look": "Wood",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Toscana",
+    "slug": "toscana-by-gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Trevizo",
+    "slug": "trevizo-by-gio",
+    "look": "Stone",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Umber",
+    "slug": "umber-by-gio",
+    "look": "Wood",
+    "style": "Plank",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "heuristic:technicalSummary",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Varenna",
+    "slug": "varenna-by-gio",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Veneto",
+    "slug": "veneto-by-gio",
+    "look": "Stone",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:description",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Verde_Alpi",
+    "slug": "verde_alpi",
+    "look": "Marble",
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "heuristic:title",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Versailles",
+    "slug": "versailles-by-gio",
+    "look": "Wood",
+    "style": "Mosaic",
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "wp-page",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Vintage",
+    "slug": "vintage-by-gio-2",
+    "look": null,
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Vitro",
+    "slug": "vitro-by-gio",
+    "look": null,
+    "style": null,
+    "material": [
+      "Glass"
+    ],
+    "lookSource": "",
+    "styleSource": "",
+    "materialSource": "wp-page"
+  },
+  {
+    "title": "Workshop 2.0",
+    "slug": "workshop-by-gio",
+    "look": null,
+    "style": null,
+    "material": [
+      "Porcelain"
+    ],
+    "lookSource": "",
+    "styleSource": "",
+    "materialSource": "heuristic"
+  },
+  {
+    "title": "Zellige",
+    "slug": "zellige-by-gio",
+    "look": null,
+    "style": "Subway",
+    "material": [
+      "Ceramic"
+    ],
+    "lookSource": "",
+    "styleSource": "wp-page",
+    "materialSource": "heuristic"
+  }
+]
