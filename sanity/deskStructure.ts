@@ -28,8 +28,39 @@ export default (S: StructureBuilder) =>
           S.list()
             .title('Blog')
             .items([
-              S.documentTypeListItem('post').title('Posts'),
+              // All posts
+              S.documentTypeListItem('post').title('All Posts'),
+
+              // Recent posts (last 20 by publish date)
+              S.listItem()
+                .title('Recent Posts')
+                .icon(() => '🕐')
+                .child(
+                  S.documentList()
+                    .title('Recent Posts')
+                    .filter('_type == "post"')
+                    .defaultOrdering([{ field: 'publishedAt', direction: 'desc' }])
+                    .apiVersion('2024-01-01')
+                ),
+
+              // Featured posts
+              S.listItem()
+                .title('Featured Posts')
+                .icon(() => '⭐')
+                .child(
+                  S.documentList()
+                    .title('Featured Posts')
+                    .filter('_type == "post" && featured == true')
+                    .defaultOrdering([{ field: 'publishedAt', direction: 'desc' }])
+                    .apiVersion('2024-01-01')
+                ),
+
+              S.divider(),
+
+              // Categories
               S.documentTypeListItem('category').title('Categories'),
+
+              // Tags
               S.documentTypeListItem('tag').title('Tags'),
             ])
         ),

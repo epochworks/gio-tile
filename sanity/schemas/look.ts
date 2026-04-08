@@ -31,5 +31,11 @@ export default defineType({
         hotspot: true,
       },
     }),
+    defineField({
+      name: 'displayOrder',
+      title: 'Display Order',
+      type: 'number',
+      description: 'Sort order in filter UI (lower = first)',
+    }),
   ],
 })

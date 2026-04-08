@@ -22,5 +22,11 @@ export default defineType({
       },
       validation: (Rule) => Rule.required(),
     }),
+    defineField({
+      name: 'displayOrder',
+      title: 'Display Order',
+      type: 'number',
+      description: 'Sort order in filter UI (lower = first)',
+    }),
   ],
 })

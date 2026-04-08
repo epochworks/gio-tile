@@ -144,12 +144,22 @@ export default defineType({
           preview: {
             select: {
               finish: 'type.title',
-              skuCount: 'skus.length',
+              sku0: 'skus.0.code',
+              sku1: 'skus.1.code',
+              sku2: 'skus.2.code',
+              sku3: 'skus.3.code',
+              sku4: 'skus.4.code',
+              sku5: 'skus.5.code',
+              sku6: 'skus.6.code',
+              sku7: 'skus.7.code',
+              sku8: 'skus.8.code',
+              sku9: 'skus.9.code',
             },
-            prepare({ finish, skuCount }) {
+            prepare({ finish, ...skus }) {
+              const count = Object.values(skus).filter(Boolean).length
               return {
                 title: finish || 'Finish',
-                subtitle: `${skuCount || 0} SKUs`,
+                subtitle: `${count} SKU${count !== 1 ? 's' : ''}`,
               }
             },
           },

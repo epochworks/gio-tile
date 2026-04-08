@@ -13,6 +13,14 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: { source: 'title', maxLength: 96 },
+      description: 'URL-friendly identifier for filtering',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
       name: 'hex',
       title: 'Hex Code',
       type: 'string',
@@ -21,6 +29,12 @@ export default defineType({
         name: 'hex color',
         invert: false,
       }),
+    }),
+    defineField({
+      name: 'displayOrder',
+      title: 'Display Order',
+      type: 'number',
+      description: 'Sort order in filter UI (lower = first)',
     }),
   ],
   preview: {
