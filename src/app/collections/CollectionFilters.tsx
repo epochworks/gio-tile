@@ -3,7 +3,6 @@
 import { useState, useMemo } from 'react'
 import ScrollReveal from '@/components/ScrollReveal'
 import CollectionCard from '@/components/collections/CollectionCard'
-import FeaturedCard from '@/components/collections/FeaturedCard'
 import FilterTag from '@/components/collections/FilterTag'
 
 interface CollectionGridProps {
@@ -36,12 +35,6 @@ export default function CollectionGrid({
 
   const hasActiveFilters =
     activeSurfaces.length > 0 || activeLook !== null || activeStyle !== null || searchQuery.length >= 2
-
-  // Separate featured collections from the rest
-  const featuredCollections = useMemo(
-    () => collections.filter((c) => c.featured),
-    [collections]
-  )
 
   const toggleSurface = (surface: string) => {
     setActiveSurfaces((prev) =>
@@ -98,13 +91,6 @@ export default function CollectionGrid({
 
     return result
   }, [collections, activeSurfaces, activeLook, activeStyle, searchQuery, sort])
-
-  // Non-featured items for the standard grid
-  const standardItems = useMemo(() => {
-    if (hasActiveFilters) return filtered
-    const featuredIds = new Set(featuredCollections.map((c) => c._id))
-    return filtered.filter((c) => !featuredIds.has(c._id))
-  }, [filtered, featuredCollections, hasActiveFilters])
 
   const handleTabClick = (tab: FilterTab) => {
     setActiveFilterTab((prev) => (prev === tab ? null : tab))
@@ -303,20 +289,10 @@ export default function CollectionGrid({
         </div>
       </ScrollReveal>
 
-      {/* Featured collections (default view only, when no filters active) */}
-      {!hasActiveFilters && featuredCollections.length > 0 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-10">
-          {featuredCollections.slice(0, 4).map((collection: any, i: number) => (
-            <ScrollReveal key={collection._id} delay={i * 80}>
-              <FeaturedCard collection={collection} />
-            </ScrollReveal>
-          ))}
-        </div>
-      )}
-
-      {/* Standard grid */}
+      {/* Collections grid — all collections render in alphabetical order.
+          Featured behaviour (promoted tiles, sort priority) will be rebuilt later. */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-10">
-        {standardItems.map((collection: any, i: number) => (
+        {filtered.map((collection: any, i: number) => (
           <ScrollReveal key={collection._id} delay={Math.min(i, 8) * 60}>
             <CollectionCard collection={collection} />
           </ScrollReveal>

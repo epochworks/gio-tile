@@ -125,7 +125,11 @@ function prepareTrending(c: any) {
   }
 }
 
-/* Pre-build image URLs for featured strip (landscape) */
+/* Pre-build image URLs for featured strip.
+   Active panel is flex-[3]/5 at ~844px tall → roughly square (~1:1).
+   Inactive panels are narrow columns — object-cover will crop horizontally
+   in those, but the vertical focal point will be preserved because the
+   source is wider than the inactive container. */
 function prepareFeatured(c: any) {
   return {
     _id: c._id,
@@ -134,7 +138,7 @@ function prepareFeatured(c: any) {
     featured: c.featured,
     technicalSummary: c.technicalSummary,
     imageUrl: c.heroImages?.[0]
-      ? urlFor(c.heroImages[0]).width(1200).height(900).url()
+      ? urlFor(c.heroImages[0]).width(1600).height(1560).url()
       : null,
   }
 }
@@ -166,13 +170,17 @@ export default async function HomePage() {
         : fallback.slice(0, 3)
   const featured = featuredRaw.slice(0, 3).map(prepareFeatured)
 
-  /* ── Looks: pre-build images for tiles with them ── */
-  const looks = (data.looks || []).map((l: any) => ({
+  /* ── Looks: pre-build images with aspect ratios matching each container ──
+     Index 0 is the featured "fill" card (tall portrait, ~0.65 aspect).
+     The rest render in a 4:3 landscape tile. Different aspect → different URL. */
+  const looks = (data.looks || []).map((l: any, i: number) => ({
     _id: l._id,
     title: l.title,
     slug: l.slug,
     imageUrl: l.image
-      ? urlFor(l.image).width(900).height(700).url()
+      ? i === 0
+        ? urlFor(l.image).width(600).height(920).url() // featured fill (~0.65 portrait)
+        : urlFor(l.image).width(900).height(700).url() // regular 4:3 landscape
       : null,
   }))
 
