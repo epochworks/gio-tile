@@ -19,6 +19,21 @@ const nextConfig = {
     ],
   },
 
+  async headers() {
+    // Add noindex header globally on staging deployments
+    if (process.env.NEXT_PUBLIC_SITE_ENV === 'staging') {
+      return [
+        {
+          source: '/:path*',
+          headers: [
+            { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+          ],
+        },
+      ]
+    }
+    return []
+  },
+
   async redirects() {
     const redirectsPath = resolve(__dirname, 'data/redirects.json')
 
