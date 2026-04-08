@@ -17,5 +17,19 @@ export default defineConfig({
   ],
   schema: {
     types: schemaTypes,
+    // Hide the siteSettings singleton from the global "New document" menu
+    // so editors can only access it via the Site Settings sidebar item
+    templates: (templates) =>
+      templates.filter(({ schemaType }) => schemaType !== 'siteSettings'),
+  },
+  document: {
+    // Disable delete & duplicate actions on the siteSettings singleton
+    actions: (input, context) =>
+      context.schemaType === 'siteSettings'
+        ? input.filter(
+            ({ action }) =>
+              action !== 'delete' && action !== 'duplicate' && action !== 'unpublish'
+          )
+        : input,
   },
 })

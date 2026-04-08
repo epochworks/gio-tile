@@ -11,8 +11,11 @@ import tag from './tag'
 import author from './author'
 import post from './post'
 import page from './page'
+import siteSettings from './siteSettings'
 
 export const schemaTypes = [
+  // Singleton
+  siteSettings,
   // Taxonomies (these should be created first)
   color,
   finish,

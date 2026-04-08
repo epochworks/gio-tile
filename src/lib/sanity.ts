@@ -11,8 +11,22 @@ export const client = createClient({
 
 const builder = imageUrlBuilder(client)
 
+/**
+ * Build an image URL for a Sanity image source.
+ *
+ * Automatically respects the hotspot/focal point set in Sanity Studio
+ * (via the "Edit Image → Focal Point" dialog). When width + height are both
+ * specified, the image is cropped around the focal point instead of centered.
+ *
+ * To set a focal point: open any image in Sanity Studio → three-dot menu →
+ * Edit Image → Focal Point → drag the dot → Apply → Publish.
+ */
 export function urlFor(source: SanityImageSource) {
-  return builder.image(source).auto('format')
+  return builder
+    .image(source)
+    .auto('format')
+    .fit('crop')
+    .crop('focalpoint')
 }
 
 // Type definitions based on our schema

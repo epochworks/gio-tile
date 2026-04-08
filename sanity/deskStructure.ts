@@ -4,6 +4,19 @@ export default (S: StructureBuilder) =>
   S.list()
     .title('Content')
     .items([
+      // ── Site Settings (singleton) ─────────────────────────
+      S.listItem()
+        .title('Site Settings')
+        .icon(() => '⚙️')
+        .child(
+          S.editor()
+            .id('siteSettings')
+            .schemaType('siteSettings')
+            .documentId('siteSettings')
+        ),
+
+      S.divider(),
+
       // ── Products ──────────────────────────────────────────
       S.listItem()
         .title('Products')

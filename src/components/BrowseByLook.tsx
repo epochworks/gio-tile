@@ -3,47 +3,34 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion, LayoutGroup } from 'framer-motion'
 import ScrollReveal from './ScrollReveal'
 
 const tabs = ['Look', 'Size', 'Color', 'Style'] as const
+type Tab = (typeof tabs)[number]
 
-const looks = [
-  { name: 'Stone', slug: 'stone', image: '/images/look-stone.png' },
-  { name: 'Marble', slug: 'marble', image: '/images/look-marble.png' },
-  { name: 'Wood', slug: 'wood', image: '/images/look-wood.png' },
-  { name: 'Concrete', slug: 'concrete', image: '/images/look-concrete.png' },
-  { name: 'Metal', slug: 'metal', image: '/images/look-metal.png' },
-]
+interface TaxonomyItem {
+  _id: string
+  title: string
+  slug: string
+  imageUrl?: string | null
+  hex?: string
+}
 
-const sizes = [
-  'Large Format',
-  'Standard',
-  'Mosaic',
-  'Plank',
-  'Hexagon',
-  'Subway',
-]
+interface BrowseByLookProps {
+  looks: TaxonomyItem[]
+  styles: TaxonomyItem[]
+  colors: TaxonomyItem[]
+  sizeTypes: TaxonomyItem[]
+}
 
-const colors = [
-  { name: 'White', hex: '#FFFFFF' },
-  { name: 'Beige', hex: '#D4C5A9' },
-  { name: 'Grey', hex: '#9E9E9E' },
-  { name: 'Black', hex: '#111111' },
-  { name: 'Brown', hex: '#6B4226' },
-  { name: 'Blue', hex: '#4A6FA5' },
-]
-
-const styles = [
-  'Modern',
-  'Traditional',
-  'Transitional',
-  'Contemporary',
-  'Industrial',
-  'Mediterranean',
-]
-
-export default function BrowseByLook() {
-  const [activeTab, setActiveTab] = useState<(typeof tabs)[number]>('Look')
+export default function BrowseByLook({
+  looks,
+  styles,
+  colors,
+  sizeTypes,
+}: BrowseByLookProps) {
+  const [activeTab, setActiveTab] = useState<Tab>('Look')
 
   return (
     <section
@@ -51,66 +38,116 @@ export default function BrowseByLook() {
       aria-labelledby="browse-heading"
     >
       <div className="max-w-container mx-auto px-container">
-      {/* Tab Header */}
-      <ScrollReveal>
-        <div className="flex items-center gap-4 mb-9" role="tablist">
-          {tabs.map((tab) => (
-            <button
-              key={tab}
-              role="tab"
-              aria-selected={activeTab === tab}
-              onClick={() => setActiveTab(tab)}
-              className={`
-                text-headline transition-opacity duration-300
-                ${activeTab === tab ? 'opacity-100' : 'opacity-50 hover:opacity-70'}
-              `}
+        {/* Tab Header — "Browse by" stays static; active word sits tight after it,
+            remaining tabs appear in original order minus the active one.
+            Uses framer-motion LayoutGroup so tabs slide smoothly when reordered. */}
+        <ScrollReveal>
+          <LayoutGroup id="browse-by-tabs">
+            <div
+              className="flex items-baseline gap-4 mb-9 flex-wrap"
+              role="tablist"
             >
-              {activeTab === tab ? (
-                <span>
-                  Browse{' '}
-                  <span className="underline underline-offset-4 decoration-1">
-                    by {tab}
-                  </span>
-                </span>
-              ) : (
-                tab
-              )}
-            </button>
-          ))}
-        </div>
-      </ScrollReveal>
+              {/* "Browse" stays static; "by {active}" share a continuous border-bottom */}
+              <h2 className="text-headline flex items-baseline gap-[0.3em]">
+                <span>Browse</span>
+                <motion.span
+                  layout
+                  className="flex items-baseline gap-[0.3em] border-b border-current pb-[2px]"
+                  transition={{
+                    type: 'spring',
+                    stiffness: 380,
+                    damping: 32,
+                  }}
+                >
+                  <span>by</span>
+                  <motion.button
+                    key={activeTab}
+                    layoutId={`tab-${activeTab}`}
+                    role="tab"
+                    aria-selected
+                    className="text-headline"
+                    transition={{
+                      type: 'spring',
+                      stiffness: 380,
+                      damping: 32,
+                    }}
+                  >
+                    {activeTab}
+                  </motion.button>
+                </motion.span>
+              </h2>
 
-      {/* Tab Content */}
-      <div className="min-h-[400px]">
-        {activeTab === 'Look' && <LookGrid />}
-        {activeTab === 'Size' && <TagGrid items={sizes} label="size" />}
-        {activeTab === 'Color' && <ColorGrid />}
-        {activeTab === 'Style' && <TagGrid items={styles} label="style" />}
-      </div>
+              {/* Remaining tabs — in original order, minus active */}
+              <div className="flex items-baseline gap-4 ml-2">
+                {tabs
+                  .filter((tab) => tab !== activeTab)
+                  .map((tab) => (
+                    <motion.button
+                      key={tab}
+                      layoutId={`tab-${tab}`}
+                      role="tab"
+                      aria-selected={false}
+                      onClick={() => setActiveTab(tab)}
+                      className="text-headline opacity-50 hover:opacity-80"
+                      transition={{
+                        type: 'spring',
+                        stiffness: 380,
+                        damping: 32,
+                      }}
+                      whileHover={{ opacity: 0.85 }}
+                    >
+                      {tab}
+                    </motion.button>
+                  ))}
+              </div>
+            </div>
+          </LayoutGroup>
+        </ScrollReveal>
+
+        {/* Tab Content */}
+        <div className="min-h-[400px]">
+          {activeTab === 'Look' && <LookGrid looks={looks} />}
+          {activeTab === 'Size' && <TagGrid items={sizeTypes} paramKey="size" />}
+          {activeTab === 'Color' && <ColorGrid colors={colors} />}
+          {activeTab === 'Style' && <TagGrid items={styles} paramKey="style" />}
+        </div>
       </div>
     </section>
   )
 }
 
-function LookGrid() {
+function LookGrid({ looks }: { looks: TaxonomyItem[] }) {
+  if (looks.length === 0) return null
+
+  // Responsive layout: first look fills left column, rest split into 2 columns
+  const featured = looks[0]
+  const middle = looks.slice(1, 3)
+  const right = looks.slice(3, 5)
+
   return (
     <div className="flex flex-col md:flex-row gap-3">
-      {/* Stone — fixed width, full height */}
+      {/* Featured look — full height */}
       <div className="w-full md:w-[524px] md:flex-shrink-0">
-        <LookCard look={looks[0]} fill />
+        <LookCard look={featured} fill />
       </div>
 
-      {/* Middle column: Marble + Wood */}
-      <div className="flex flex-col gap-3 flex-1">
-        <LookCard look={looks[1]} />
-        <LookCard look={looks[2]} />
-      </div>
+      {/* Middle column */}
+      {middle.length > 0 && (
+        <div className="flex flex-col gap-3 flex-1">
+          {middle.map((look) => (
+            <LookCard key={look._id} look={look} />
+          ))}
+        </div>
+      )}
 
-      {/* Right column: Concrete + Metal */}
-      <div className="flex flex-col gap-3 flex-1">
-        <LookCard look={looks[3]} />
-        <LookCard look={looks[4]} />
-      </div>
+      {/* Right column */}
+      {right.length > 0 && (
+        <div className="flex flex-col gap-3 flex-1">
+          {right.map((look) => (
+            <LookCard key={look._id} look={look} />
+          ))}
+        </div>
+      )}
     </div>
   )
 }
@@ -119,65 +156,81 @@ function LookCard({
   look,
   fill = false,
 }: {
-  look: (typeof looks)[number]
+  look: TaxonomyItem
   fill?: boolean
 }) {
   return (
     <Link
-      href={`/collections?look=${look.slug}`}
+      href={`/tile-stone?look=${look.slug}`}
       className={`group block bg-gio-grey overflow-hidden ${fill ? 'h-full flex flex-col' : ''}`}
     >
       <div className="px-[15px] py-[20px] flex-shrink-0">
-        <h3 className="text-title text-gio-black">{look.name}</h3>
+        <h3 className="text-title text-gio-black">{look.title}</h3>
       </div>
       <div
         className={`relative overflow-hidden ${
           fill ? 'flex-1 min-h-[300px]' : 'aspect-[4/3]'
         }`}
       >
-        <Image
-          src={look.image}
-          alt={`${look.name} look tiles`}
-          fill
-          sizes={fill ? '(max-width: 768px) 100vw, 524px' : '(max-width: 768px) 100vw, 33vw'}
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-          loading="lazy"
-        />
+        {look.imageUrl ? (
+          <Image
+            src={look.imageUrl}
+            alt={`${look.title} look tiles`}
+            fill
+            sizes={fill ? '(max-width: 768px) 100vw, 524px' : '(max-width: 768px) 100vw, 33vw'}
+            className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+            loading="lazy"
+          />
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-gio-grey to-[#e8e8e8] flex items-center justify-center">
+            <span className="text-[80px] text-gio-black/10 tracking-[-0.04em]">
+              {look.title.charAt(0)}
+            </span>
+          </div>
+        )}
       </div>
     </Link>
   )
 }
 
-function ColorGrid() {
+function ColorGrid({ colors }: { colors: TaxonomyItem[] }) {
+  if (colors.length === 0) return null
   return (
     <div className="grid grid-cols-3 sm:grid-cols-6 gap-3">
-      {colors.map((color) => (
+      {colors.slice(0, 12).map((color) => (
         <Link
-          key={color.name}
-          href={`/collections?color=${color.name.toLowerCase()}`}
+          key={color._id}
+          href={`/tile-stone?color=${color.slug}`}
           className="group flex flex-col items-center gap-3 p-6 bg-gio-grey hover:bg-[#ebebeb] transition-colors"
         >
           <span
             className="w-16 h-16 rounded-full border border-black/10"
-            style={{ backgroundColor: color.hex }}
+            style={{ backgroundColor: color.hex || '#CCCCCC' }}
           />
-          <span className="text-caption text-gio-black">{color.name}</span>
+          <span className="text-caption text-gio-black">{color.title}</span>
         </Link>
       ))}
     </div>
   )
 }
 
-function TagGrid({ items, label }: { items: string[]; label: string }) {
+function TagGrid({
+  items,
+  paramKey,
+}: {
+  items: TaxonomyItem[]
+  paramKey: string
+}) {
+  if (items.length === 0) return null
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-      {items.map((item) => (
+      {items.slice(0, 12).map((item) => (
         <Link
-          key={item}
-          href={`/collections?${label}=${item.toLowerCase().replace(/\s+/g, '-')}`}
+          key={item._id}
+          href={`/tile-stone?${paramKey}=${item.slug}`}
           className="group flex items-center justify-center p-8 bg-gio-grey hover:bg-gio-black hover:text-white transition-colors text-title text-center"
         >
-          {item}
+          {item.title}
         </Link>
       ))}
     </div>
